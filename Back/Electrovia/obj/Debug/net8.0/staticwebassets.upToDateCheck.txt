@@ -1,0 +1,14 @@
+wwwroot\images\products\apple_airpods_pro.png
+wwwroot\images\products\apple_ipad_air11.png
+wwwroot\images\products\apple_macbook_air2020_model.png
+wwwroot\images\products\apple_watch_ultra_3_49mm.png
+wwwroot\images\products\dualsense_edge_ps5_controller.png
+wwwroot\images\products\Hp_victus_Fa0033Dx_laptop.png
+wwwroot\images\products\iphone_16_plus.png
+wwwroot\images\products\iphone_16_promax.png
+wwwroot\images\products\lenovo_legion_5_laptop.png
+wwwroot\images\products\samsung_galaxy_buds_2.png
+wwwroot\images\products\Samsung_Galaxy_Watch_4_Classic.jpg
+wwwroot\images\products\Samsung_Galaxy_Watch_ultra_smart_watch.png
+wwwroot\images\products\sony_ps5_pro.png
+wwwroot\images\products\sony_watch_gt5_pro_46mm_smart_watch.png

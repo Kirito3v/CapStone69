@@ -1,0 +1,1154 @@
+{
+  "Version": 1,
+  "ManifestType": "Build",
+  "Endpoints": [
+    {
+      "Route": "images/products/Hp_victus_Fa0033Dx_laptop.dj7h31im6p.png",
+      "AssetFile": "images/products/Hp_victus_Fa0033Dx_laptop.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "58271"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"l5gJ+MQX9af2zd+w180D2ytKU5KXXs3P6YmTsWa86ek=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Apr 2025 19:17:18 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dj7h31im6p"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-l5gJ+MQX9af2zd+w180D2ytKU5KXXs3P6YmTsWa86ek="
+        },
+        {
+          "Name": "label",
+          "Value": "images/products/Hp_victus_Fa0033Dx_laptop.png"
+        }
+      ]
+    },
+    {
+      "Route": "images/products/Hp_victus_Fa0033Dx_laptop.png",
+      "AssetFile": "images/products/Hp_victus_Fa0033Dx_laptop.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "58271"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"l5gJ+MQX9af2zd+w180D2ytKU5KXXs3P6YmTsWa86ek=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Apr 2025 19:17:18 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-l5gJ+MQX9af2zd+w180D2ytKU5KXXs3P6YmTsWa86ek="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/Samsung_Galaxy_Watch_4_Classic.998dtew905.jpg",
+      "AssetFile": "images/products/Samsung_Galaxy_Watch_4_Classic.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "150014"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8x+UlvbsKDvPWcQn27BGj/oGMR3nJ3L81NH5HCPphFc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 07 Mar 2025 00:26:20 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "998dtew905"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-8x+UlvbsKDvPWcQn27BGj/oGMR3nJ3L81NH5HCPphFc="
+        },
+        {
+          "Name": "label",
+          "Value": "images/products/Samsung_Galaxy_Watch_4_Classic.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "images/products/Samsung_Galaxy_Watch_4_Classic.jpg",
+      "AssetFile": "images/products/Samsung_Galaxy_Watch_4_Classic.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "150014"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8x+UlvbsKDvPWcQn27BGj/oGMR3nJ3L81NH5HCPphFc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 07 Mar 2025 00:26:20 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-8x+UlvbsKDvPWcQn27BGj/oGMR3nJ3L81NH5HCPphFc="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/Samsung_Galaxy_Watch_ultra_smart_watch.nfaxygtjn8.png",
+      "AssetFile": "images/products/Samsung_Galaxy_Watch_ultra_smart_watch.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "92174"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7Rpsn7V4zzfruGJZQh66Y/hMEiehy16uPY2M7xcC7ho=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Apr 2025 19:19:37 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "nfaxygtjn8"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-7Rpsn7V4zzfruGJZQh66Y/hMEiehy16uPY2M7xcC7ho="
+        },
+        {
+          "Name": "label",
+          "Value": "images/products/Samsung_Galaxy_Watch_ultra_smart_watch.png"
+        }
+      ]
+    },
+    {
+      "Route": "images/products/Samsung_Galaxy_Watch_ultra_smart_watch.png",
+      "AssetFile": "images/products/Samsung_Galaxy_Watch_ultra_smart_watch.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "92174"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7Rpsn7V4zzfruGJZQh66Y/hMEiehy16uPY2M7xcC7ho=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Apr 2025 19:19:37 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-7Rpsn7V4zzfruGJZQh66Y/hMEiehy16uPY2M7xcC7ho="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/apple_airpods_pro.95554i2etg.png",
+      "AssetFile": "images/products/apple_airpods_pro.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "47125"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TVUs+muBf8UNT6nljKxdoXIUzGs13RGd5mh6p3QhRuA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Apr 2025 19:20:38 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "95554i2etg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-TVUs+muBf8UNT6nljKxdoXIUzGs13RGd5mh6p3QhRuA="
+        },
+        {
+          "Name": "label",
+          "Value": "images/products/apple_airpods_pro.png"
+        }
+      ]
+    },
+    {
+      "Route": "images/products/apple_airpods_pro.png",
+      "AssetFile": "images/products/apple_airpods_pro.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "47125"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TVUs+muBf8UNT6nljKxdoXIUzGs13RGd5mh6p3QhRuA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Apr 2025 19:20:38 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-TVUs+muBf8UNT6nljKxdoXIUzGs13RGd5mh6p3QhRuA="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/apple_ipad_air11.cec8607ot6.png",
+      "AssetFile": "images/products/apple_ipad_air11.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "65452"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PNkb5PVazzreMwhUbDjrJ3C62357pudqH+F0v5K3Q6Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Apr 2025 19:22:16 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cec8607ot6"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-PNkb5PVazzreMwhUbDjrJ3C62357pudqH+F0v5K3Q6Y="
+        },
+        {
+          "Name": "label",
+          "Value": "images/products/apple_ipad_air11.png"
+        }
+      ]
+    },
+    {
+      "Route": "images/products/apple_ipad_air11.png",
+      "AssetFile": "images/products/apple_ipad_air11.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "65452"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PNkb5PVazzreMwhUbDjrJ3C62357pudqH+F0v5K3Q6Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Apr 2025 19:22:16 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-PNkb5PVazzreMwhUbDjrJ3C62357pudqH+F0v5K3Q6Y="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/apple_macbook_air2020_model.0r551pjec3.png",
+      "AssetFile": "images/products/apple_macbook_air2020_model.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "40671"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pP6KZeW+EhiGmKc7LinYRTy4xFW0ixdIxZpJ9lIh35k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Apr 2025 19:15:06 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0r551pjec3"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-pP6KZeW+EhiGmKc7LinYRTy4xFW0ixdIxZpJ9lIh35k="
+        },
+        {
+          "Name": "label",
+          "Value": "images/products/apple_macbook_air2020_model.png"
+        }
+      ]
+    },
+    {
+      "Route": "images/products/apple_macbook_air2020_model.png",
+      "AssetFile": "images/products/apple_macbook_air2020_model.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "40671"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pP6KZeW+EhiGmKc7LinYRTy4xFW0ixdIxZpJ9lIh35k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Apr 2025 19:15:06 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-pP6KZeW+EhiGmKc7LinYRTy4xFW0ixdIxZpJ9lIh35k="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/apple_watch_ultra_3_49mm.2pz1k3owc2.png",
+      "AssetFile": "images/products/apple_watch_ultra_3_49mm.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "72635"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9mrn/7ISxLlFtFLqhTvXOsgsyDqOF+/3g912mEV3+1U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Apr 2025 19:09:15 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2pz1k3owc2"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-9mrn/7ISxLlFtFLqhTvXOsgsyDqOF+/3g912mEV3+1U="
+        },
+        {
+          "Name": "label",
+          "Value": "images/products/apple_watch_ultra_3_49mm.png"
+        }
+      ]
+    },
+    {
+      "Route": "images/products/apple_watch_ultra_3_49mm.png",
+      "AssetFile": "images/products/apple_watch_ultra_3_49mm.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "72635"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9mrn/7ISxLlFtFLqhTvXOsgsyDqOF+/3g912mEV3+1U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Apr 2025 19:09:15 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-9mrn/7ISxLlFtFLqhTvXOsgsyDqOF+/3g912mEV3+1U="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/dualsense_edge_ps5_controller.cu210dw0cl.png",
+      "AssetFile": "images/products/dualsense_edge_ps5_controller.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "40054"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XOcyh29f6WWrXiG5lqesJBtQ98sIYxpC8EfTdMEw0KA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Apr 2025 19:12:32 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cu210dw0cl"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-XOcyh29f6WWrXiG5lqesJBtQ98sIYxpC8EfTdMEw0KA="
+        },
+        {
+          "Name": "label",
+          "Value": "images/products/dualsense_edge_ps5_controller.png"
+        }
+      ]
+    },
+    {
+      "Route": "images/products/dualsense_edge_ps5_controller.png",
+      "AssetFile": "images/products/dualsense_edge_ps5_controller.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "40054"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XOcyh29f6WWrXiG5lqesJBtQ98sIYxpC8EfTdMEw0KA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Apr 2025 19:12:32 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-XOcyh29f6WWrXiG5lqesJBtQ98sIYxpC8EfTdMEw0KA="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/iphone_16_plus.btr28feuif.png",
+      "AssetFile": "images/products/iphone_16_plus.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "57084"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"T/3qQdSZVjcUKCA3Bmb0k2y+xL4RXTIgGNg5yTeZaFY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Apr 2025 19:08:38 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "btr28feuif"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-T/3qQdSZVjcUKCA3Bmb0k2y+xL4RXTIgGNg5yTeZaFY="
+        },
+        {
+          "Name": "label",
+          "Value": "images/products/iphone_16_plus.png"
+        }
+      ]
+    },
+    {
+      "Route": "images/products/iphone_16_plus.png",
+      "AssetFile": "images/products/iphone_16_plus.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "57084"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"T/3qQdSZVjcUKCA3Bmb0k2y+xL4RXTIgGNg5yTeZaFY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Apr 2025 19:08:38 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-T/3qQdSZVjcUKCA3Bmb0k2y+xL4RXTIgGNg5yTeZaFY="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/iphone_16_promax.png",
+      "AssetFile": "images/products/iphone_16_promax.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "49215"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sbJ83BTUeEROLJIfBClJ+PTPKQ1KJtBEkBrsFBYPJM8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Apr 2025 19:08:16 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-sbJ83BTUeEROLJIfBClJ+PTPKQ1KJtBEkBrsFBYPJM8="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/iphone_16_promax.xg97f6sanv.png",
+      "AssetFile": "images/products/iphone_16_promax.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "49215"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sbJ83BTUeEROLJIfBClJ+PTPKQ1KJtBEkBrsFBYPJM8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Apr 2025 19:08:16 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xg97f6sanv"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-sbJ83BTUeEROLJIfBClJ+PTPKQ1KJtBEkBrsFBYPJM8="
+        },
+        {
+          "Name": "label",
+          "Value": "images/products/iphone_16_promax.png"
+        }
+      ]
+    },
+    {
+      "Route": "images/products/lenovo_legion_5_laptop.png",
+      "AssetFile": "images/products/lenovo_legion_5_laptop.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "67794"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zljaVjzjCA5C0PFuRbx7ASBHAPX6OyYemEGY+UsTakg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Apr 2025 19:14:39 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-zljaVjzjCA5C0PFuRbx7ASBHAPX6OyYemEGY+UsTakg="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/lenovo_legion_5_laptop.y7nlch4pmb.png",
+      "AssetFile": "images/products/lenovo_legion_5_laptop.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "67794"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zljaVjzjCA5C0PFuRbx7ASBHAPX6OyYemEGY+UsTakg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Apr 2025 19:14:39 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "y7nlch4pmb"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-zljaVjzjCA5C0PFuRbx7ASBHAPX6OyYemEGY+UsTakg="
+        },
+        {
+          "Name": "label",
+          "Value": "images/products/lenovo_legion_5_laptop.png"
+        }
+      ]
+    },
+    {
+      "Route": "images/products/samsung_galaxy_buds_2.png",
+      "AssetFile": "images/products/samsung_galaxy_buds_2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14263"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"l8JMUgdDTxKqZ0a9rsn1JnqcsFYYgW2tmnaECZV5qpc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Apr 2025 19:10:53 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-l8JMUgdDTxKqZ0a9rsn1JnqcsFYYgW2tmnaECZV5qpc="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/samsung_galaxy_buds_2.xqyeee13nn.png",
+      "AssetFile": "images/products/samsung_galaxy_buds_2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14263"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"l8JMUgdDTxKqZ0a9rsn1JnqcsFYYgW2tmnaECZV5qpc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Apr 2025 19:10:53 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xqyeee13nn"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-l8JMUgdDTxKqZ0a9rsn1JnqcsFYYgW2tmnaECZV5qpc="
+        },
+        {
+          "Name": "label",
+          "Value": "images/products/samsung_galaxy_buds_2.png"
+        }
+      ]
+    },
+    {
+      "Route": "images/products/sony_ps5_pro.otjlrd3gn7.png",
+      "AssetFile": "images/products/sony_ps5_pro.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "24232"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nNZxI94kado1uc7O8Jyh8XTIXLudgSHIos6Q9ixH9rE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Apr 2025 19:21:13 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "otjlrd3gn7"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-nNZxI94kado1uc7O8Jyh8XTIXLudgSHIos6Q9ixH9rE="
+        },
+        {
+          "Name": "label",
+          "Value": "images/products/sony_ps5_pro.png"
+        }
+      ]
+    },
+    {
+      "Route": "images/products/sony_ps5_pro.png",
+      "AssetFile": "images/products/sony_ps5_pro.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "24232"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nNZxI94kado1uc7O8Jyh8XTIXLudgSHIos6Q9ixH9rE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Apr 2025 19:21:13 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-nNZxI94kado1uc7O8Jyh8XTIXLudgSHIos6Q9ixH9rE="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/sony_watch_gt5_pro_46mm_smart_watch.1jcz1tvq8a.png",
+      "AssetFile": "images/products/sony_watch_gt5_pro_46mm_smart_watch.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "66610"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Lc/MozLGEYFWv2Bze0jxuvdxhyU2FnKb7BegOt2Pyd0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Apr 2025 19:18:52 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1jcz1tvq8a"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Lc/MozLGEYFWv2Bze0jxuvdxhyU2FnKb7BegOt2Pyd0="
+        },
+        {
+          "Name": "label",
+          "Value": "images/products/sony_watch_gt5_pro_46mm_smart_watch.png"
+        }
+      ]
+    },
+    {
+      "Route": "images/products/sony_watch_gt5_pro_46mm_smart_watch.png",
+      "AssetFile": "images/products/sony_watch_gt5_pro_46mm_smart_watch.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "66610"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Lc/MozLGEYFWv2Bze0jxuvdxhyU2FnKb7BegOt2Pyd0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Apr 2025 19:18:52 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Lc/MozLGEYFWv2Bze0jxuvdxhyU2FnKb7BegOt2Pyd0="
+        }
+      ]
+    }
+  ]
+}

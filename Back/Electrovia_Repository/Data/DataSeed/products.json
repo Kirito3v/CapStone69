@@ -1,0 +1,114 @@
+[
+  {
+    "Name": "iPhone 16 Pro",
+    "Price": 1200,
+    "Description": "Flagship phone with A16 chip and triple-camera system.",
+    "PictureUrl": "images/products/iphone_16_promax.png",
+    "ProductBrandId": 1,
+    "ProductTypeId": 1
+  },
+  {
+    "Name": "Samsung Galaxy Watch 5",
+    "Price": 367,
+    "Description": "Stylish and powerful smartwatch by Samsung.",
+    "PictureUrl": "images/products/Samsung_Galaxy_Watch_ultra_smart_watch.png",
+    "ProductBrandId": 3,
+    "ProductTypeId": 2
+  },
+  {
+    "Name": "HP victus Lapotp",
+    "Price": 149,
+    "Description": "Gaming laptop with NVIDIA GTX graphics.",
+    "PictureUrl": "images/products/Hp_victus_Fa0033Dx_laptop.png",
+    "ProductBrandId": 4,
+    "ProductTypeId": 3
+  },
+  {
+    "Name": "Apple Watch ultra 3",
+    "Price": 690,
+    "Description": "Advanced health monitoring and fitness tracking.",
+    "PictureUrl": "images/products/apple_watch_ultra_3_49mm.png",
+    "ProductBrandId": 1,
+    "ProductTypeId": 2
+  },
+  {
+    "Name": "Apple Macbook Air 2020",
+    "Price": 799,
+    "Description": "2-in-1 convertible laptop with touch screen.",
+    "PictureUrl": "images/products/apple_macbook_air2020_model.png",
+    "ProductBrandId": 1,
+    "ProductTypeId": 3
+  },
+  {
+    "Name": "Apple AirPods Pro",
+    "Price": 180,
+    "Description": "Over-ear headphones with spatial audio.",
+    "PictureUrl": "images/products/apple_airpods_pro.png",
+    "ProductBrandId": 1,
+    "ProductTypeId": 4
+  },
+  {
+    "Name": "Lenovo Legion 5",
+    "Price": 599,
+    "Description": "Affordable everyday laptop with solid performance.",
+    "PictureUrl": "images/products/lenovo_legion_5_laptop.png",
+    "ProductBrandId": 4,
+    "ProductTypeId": 3
+  },
+  {
+    "Name": "Sony Watch Gt5 Pro",
+    "Price": 369,
+    "Description": "Elegant smartwatch with long battery life.",
+    "PictureUrl": "images/products/sony_watch_gt5_pro_46mm_smart_watch.png",
+    "ProductBrandId": 5,
+    "ProductTypeId": 2
+  },
+  {
+    "Name": "Samsung Galaxy Buds 2",
+    "Price": 299,
+    "Description": "Premium wireless earbuds with ANC.",
+    "PictureUrl": "images/products/samsung_galaxy_buds_2.png",
+    "ProductBrandId": 3,
+    "ProductTypeId": 4
+  },
+  {
+    "Name": "Apple IPad Air 11",
+    "Price": 599,
+    "Description": "Powerful tablet for work and play.",
+    "PictureUrl": "images/products/apple_ipad_air11.png",
+    "ProductBrandId": 1,
+    "ProductTypeId": 1
+  },
+  {
+    "Name": "Samsung Galaxy Watch 4 Classic",
+    "Price": 479,
+    "Description": "Premium Android smartwatch",
+    "PictureUrl": "images/products/Samsung_Galaxy_Watch_4_Classic.jpg",
+    "ProductBrandId": 3,
+    "ProductTypeId": 2
+  },
+  {
+    "Name": "Sony PS5 Pro",
+    "Price": 899,
+    "Description": "The Sony PS5 Pro offering faster performance, improved graphics.",
+    "PictureUrl": "images/products/sony_ps5_pro.png",
+    "ProductBrandId": 5,
+    "ProductTypeId": 5
+  },
+  {
+    "Name": "Dualsense edge Controller",
+    "Price": 59,
+    "Description": "is a premium PS5 controller with customizable buttons, adjustable triggers, and swappable parts.",
+    "PictureUrl": "images/products/dualsense_edge_ps5_controller.png",
+    "ProductBrandId": 5,
+    "ProductTypeId": 5
+  },
+  {
+    "Name": "IPhone 16 Plus",
+    "Price": 999,
+    "Description": "featuring a big display, improved camera,faster performance,and long battery life—perfect.",
+    "PictureUrl": "images/products/iphone_16_plus.png",
+    "ProductBrandId": 1,
+    "ProductTypeId": 1
+  }
+]

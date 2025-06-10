@@ -1,0 +1,230 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffffffd2;
+}
+
+* {
+    font-family: "Gabarito", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    box-sizing: border-box;
+    line-height: normal;
+    margin: unset;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h2, h3, p {
+    color:black;
+    margin: 5px 0;
+}
+
+input {
+    background-color: transparent;
+    width: 100%;
+}
+
+/* Header Styles */
+header {
+      position: sticky;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background-color: #333;
+      color: white;
+      padding: 15px;
+      text-align: center;
+      z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    height: 80px;
+}
+
+
+
+
+/* Step Indicator */
+.step-indicator {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.step {
+    text-align: center;
+    font-size: 16px; 
+    color: #aaa;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px; 
+}
+
+.step.active {
+    font-weight: bold;
+    color: #333;
+}
+
+.step i {
+    font-size: 24px; 
+    margin-bottom: 6px; 
+}
+/* Shipment Method Section */
+.shipment-method {
+    margin-bottom: 20px;
+}
+
+.shipment-option {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    color:black;
+}
+
+.shipment-option:hover {
+    border-color: #333;
+}
+
+.shipment-option input[type="radio"] {
+    margin-right: 10px;
+}
+
+
+/* Custom Radio Buttons */
+.shipment-option input[type="radio"] {
+    appearance: none; 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 18px;
+    height: 18px;
+    border: 2px solid #ccc;
+    border-radius: 50%;
+    margin-right: 10px;
+    position: relative;
+    cursor: pointer;
+}
+
+.shipment-option input[type="radio"]:checked {
+    border-color: #000; 
+}
+
+
+.shipment-option input[type="radio"]:checked::before {
+    content: "";
+    display: block;
+    width: 10px;
+    height: 10px;
+    background-color: #000; 
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Buttons */
+.buttons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-top: auto;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn-back {
+    background-color: #ddd;
+    color: #333;
+}
+
+.btn-next {
+    background-color: #000;
+    color: #fff;
+}
+
+.btn-next:hover {
+    background-color: #333;
+}
+
+
+/* Date Picker Styles */
+.date-picker-container {
+    display: none;
+}
+
+input[type="radio"][value="schedule"]:checked ~ .date-picker-container {
+    display: block;
+}
+
+input[type="radio"][value="schedule"]:checked ~ .delivery-date {
+    display: none;
+}
+
+.date-picker {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-family: "Gabarito", serif;
+    width: 150px;
+    margin-left: 28px; /* Align with radio button */
+}
+
+/* Dynamic delivery date styles */
+.delivery-date {
+    color: #333;
+    font-weight: 500;
+}
+
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+        padding: 15px;
+    }
+
+    .step-indicator {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .btn-back, .btn-next {
+        width: 100%;
+        margin: 5px 0;
+    }
+
+    .icons {
+        margin-right: 20px;
+    }
+
+    .nav-links {
+        gap: 10px;
+    }
+}

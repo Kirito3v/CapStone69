@@ -1,0 +1,377 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    font-family: "Gabarito", serif;
+    background-color: #ffffffd2;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+* {
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    box-sizing: border-box;
+    line-height: normal;
+    margin: unset;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h2, h3, p {
+    margin: 5px 0;
+}
+
+input {
+    background-color: transparent;
+    width: 100%;
+}
+
+/* Header Styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    margin-left: -100px;
+    margin-right: -100px;
+    margin-bottom: 50px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    height: 80px;
+}
+
+.logo img {
+    height: 40px;
+    margin-left: 30px;
+}
+
+.search-bar {
+    flex-grow: 1;
+    margin: 0 10px;
+    max-width: 400px;
+}
+
+    .search-bar input {
+        width: 100%;
+        height: 50px;
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+
+.nav-links {
+    display: flex;
+    gap: 25px;
+}
+
+    .nav-links a {
+        text-decoration: none;
+        color: #000;
+        font-weight: 600;
+        font-size: 20px;
+    }
+
+.icons {
+    display: flex;
+    gap: 30px;
+    margin-right: 350px;
+}
+
+    .icons img {
+        width: 35px;
+        height: 35px;
+    }
+
+    .icons a:hover img {
+        opacity: 0.8;
+        transform: scale(1.1);
+        transition: opacity 0.3s ease, transform 0.3s ease;
+    }
+
+
+
+
+.container {
+    display: flex;
+}
+
+aside.filter {
+    width: 20%;
+    height: 40%;
+    padding: 20px;
+    background-color: #ffffff;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.filter h3 {
+    margin-top: 0;
+}
+
+.filter h2 {
+    margin-top: 0;
+    font-size: 30px;
+}
+
+.filter label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Filter Search Bar Styles */
+.filter-search {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+    .filter-search input {
+        flex: 1;
+        padding: 10px;
+        border: none;
+        outline: none;
+        font-size: 14px;
+    }
+
+    .filter-search button {
+        background-color: #000000;
+        border: none;
+        ;
+        padding: 10px 12px;
+        cursor: pointer;
+        color: #fff;
+        transition: background-color 0.3s ease;
+    }
+
+        .filter-search button:hover {
+            background-color: #767676;
+        }
+
+        .filter-search button i {
+            font-size: 16px;
+        }
+
+
+
+/* Filter Dropdown Styles */
+.filter details {
+    margin-bottom: 15px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+
+    .filter details summary {
+        cursor: pointer;
+        list-style: none;
+    }
+
+        .filter details summary::-webkit-details-marker {
+            display: none;
+        }
+
+        .filter details summary h3 {
+            display: inline-block;
+            margin: 0;
+        }
+
+    .filter details[open] summary h3 {
+        color: #7a7a7a;
+    }
+
+.filter-options {
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+    .filter-options label {
+        display: block;
+        margin: 5px 0;
+        cursor: pointer;
+    }
+
+    .filter-options input {
+        width: auto;
+        margin-right: 8px;
+    }
+
+
+/* Main products Styles */
+
+main.products {
+    width: 60%;
+    padding: 20px;
+}
+
+.product-header {
+    position: relative;
+}
+
+.products h1 {
+    margin-top: 0;
+}
+
+.product-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 40px;
+}
+
+.product-item {
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    background-color: #fbfbfb;
+    border-radius: 8px;
+    position: relative;
+}
+
+    .product-item img {
+        max-width: 100%;
+        border-radius: 8px;
+        width: 75%;
+        height: auto;
+    }
+
+    .product-item h2 {
+        font-size: 18px;
+        margin: 10px 0;
+    }
+
+    .product-item .price {
+        font-size: 24px;
+        color: #333;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+
+
+    .product-item button {
+        padding: 17px 60px;
+        background-color: #000000;
+        color: white;
+        border: none;
+        cursor: pointer;
+        border-radius: 10px;
+        transition: background-color 0.3s ease;
+    }
+
+        .product-item button:hover {
+            background-color: #3e3e3e;
+        }
+
+
+
+
+/* Favorite Icon Styles */
+
+.favorite-icon {
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    cursor: pointer;
+    color: #6e6e6e;
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+
+    .favorite-icon:hover {
+        color: #000000;
+        transform: scale(1.1);
+    }
+
+    .favorite-icon.active {
+        color: #000000;
+    }
+
+
+
+
+/* Pagination Styles */
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 40px 0;
+    padding: 20px 0;
+}
+
+.page-btn {
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    color: #000000;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+    .page-btn:hover {
+        background-color: #000000;
+        color: #fff;
+        border-color: #000000;
+    }
+
+    .page-btn.active {
+        background-color: #000000;
+        color: #fff;
+        border-color: #000000;
+    }
+
+.ellipsis {
+    font-size: 18px;
+    color: #666;
+    margin: 0 5px;
+}
+
+.next-btn {
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+    .next-btn:hover {
+        background-color: #4f4f50;
+    }
+
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-brand {
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .footer-links {
+        gap: 20px;
+        justify-content: center;
+    }
+
+    .footer-column {
+        text-align: center;
+    }
+}

@@ -1,0 +1,172 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/Electrovia/images/products/apple_airpods_pro.95554i2etg.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\apple_airpods_pro.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"95554i2etg"},{"Name":"integrity","Value":"sha256-TVUs\u002BmuBf8UNT6nljKxdoXIUzGs13RGd5mh6p3QhRuA="},{"Name":"label","Value":"_content/Electrovia/images/products/apple_airpods_pro.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"47125"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022TVUs\u002BmuBf8UNT6nljKxdoXIUzGs13RGd5mh6p3QhRuA=\u0022"},{"Name":"Last-Modified","Value":"Thu, 17 Apr 2025 19:20:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Electrovia/images/products/apple_airpods_pro.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\apple_airpods_pro.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-TVUs\u002BmuBf8UNT6nljKxdoXIUzGs13RGd5mh6p3QhRuA="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"47125"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022TVUs\u002BmuBf8UNT6nljKxdoXIUzGs13RGd5mh6p3QhRuA=\u0022"},{"Name":"Last-Modified","Value":"Thu, 17 Apr 2025 19:20:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Electrovia/images/products/apple_ipad_air11.cec8607ot6.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\apple_ipad_air11.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"cec8607ot6"},{"Name":"integrity","Value":"sha256-PNkb5PVazzreMwhUbDjrJ3C62357pudqH\u002BF0v5K3Q6Y="},{"Name":"label","Value":"_content/Electrovia/images/products/apple_ipad_air11.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"65452"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022PNkb5PVazzreMwhUbDjrJ3C62357pudqH\u002BF0v5K3Q6Y=\u0022"},{"Name":"Last-Modified","Value":"Thu, 17 Apr 2025 19:22:16 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Electrovia/images/products/apple_ipad_air11.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\apple_ipad_air11.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-PNkb5PVazzreMwhUbDjrJ3C62357pudqH\u002BF0v5K3Q6Y="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"65452"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022PNkb5PVazzreMwhUbDjrJ3C62357pudqH\u002BF0v5K3Q6Y=\u0022"},{"Name":"Last-Modified","Value":"Thu, 17 Apr 2025 19:22:16 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Electrovia/images/products/apple_macbook_air2020_model.0r551pjec3.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\apple_macbook_air2020_model.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"0r551pjec3"},{"Name":"integrity","Value":"sha256-pP6KZeW\u002BEhiGmKc7LinYRTy4xFW0ixdIxZpJ9lIh35k="},{"Name":"label","Value":"_content/Electrovia/images/products/apple_macbook_air2020_model.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"40671"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022pP6KZeW\u002BEhiGmKc7LinYRTy4xFW0ixdIxZpJ9lIh35k=\u0022"},{"Name":"Last-Modified","Value":"Thu, 17 Apr 2025 19:15:06 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Electrovia/images/products/apple_macbook_air2020_model.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\apple_macbook_air2020_model.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-pP6KZeW\u002BEhiGmKc7LinYRTy4xFW0ixdIxZpJ9lIh35k="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"40671"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022pP6KZeW\u002BEhiGmKc7LinYRTy4xFW0ixdIxZpJ9lIh35k=\u0022"},{"Name":"Last-Modified","Value":"Thu, 17 Apr 2025 19:15:06 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Electrovia/images/products/apple_watch_ultra_3_49mm.2pz1k3owc2.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\apple_watch_ultra_3_49mm.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"2pz1k3owc2"},{"Name":"integrity","Value":"sha256-9mrn/7ISxLlFtFLqhTvXOsgsyDqOF\u002B/3g912mEV3\u002B1U="},{"Name":"label","Value":"_content/Electrovia/images/products/apple_watch_ultra_3_49mm.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"72635"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u00229mrn/7ISxLlFtFLqhTvXOsgsyDqOF\u002B/3g912mEV3\u002B1U=\u0022"},{"Name":"Last-Modified","Value":"Thu, 17 Apr 2025 19:09:15 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Electrovia/images/products/apple_watch_ultra_3_49mm.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\apple_watch_ultra_3_49mm.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-9mrn/7ISxLlFtFLqhTvXOsgsyDqOF\u002B/3g912mEV3\u002B1U="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"72635"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u00229mrn/7ISxLlFtFLqhTvXOsgsyDqOF\u002B/3g912mEV3\u002B1U=\u0022"},{"Name":"Last-Modified","Value":"Thu, 17 Apr 2025 19:09:15 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Electrovia/images/products/dualsense_edge_ps5_controller.cu210dw0cl.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\dualsense_edge_ps5_controller.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"cu210dw0cl"},{"Name":"integrity","Value":"sha256-XOcyh29f6WWrXiG5lqesJBtQ98sIYxpC8EfTdMEw0KA="},{"Name":"label","Value":"_content/Electrovia/images/products/dualsense_edge_ps5_controller.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"40054"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022XOcyh29f6WWrXiG5lqesJBtQ98sIYxpC8EfTdMEw0KA=\u0022"},{"Name":"Last-Modified","Value":"Thu, 17 Apr 2025 19:12:32 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Electrovia/images/products/dualsense_edge_ps5_controller.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\dualsense_edge_ps5_controller.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-XOcyh29f6WWrXiG5lqesJBtQ98sIYxpC8EfTdMEw0KA="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"40054"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022XOcyh29f6WWrXiG5lqesJBtQ98sIYxpC8EfTdMEw0KA=\u0022"},{"Name":"Last-Modified","Value":"Thu, 17 Apr 2025 19:12:32 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Electrovia/images/products/Hp_victus_Fa0033Dx_laptop.dj7h31im6p.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\Hp_victus_Fa0033Dx_laptop.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"dj7h31im6p"},{"Name":"integrity","Value":"sha256-l5gJ\u002BMQX9af2zd\u002Bw180D2ytKU5KXXs3P6YmTsWa86ek="},{"Name":"label","Value":"_content/Electrovia/images/products/Hp_victus_Fa0033Dx_laptop.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"58271"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022l5gJ\u002BMQX9af2zd\u002Bw180D2ytKU5KXXs3P6YmTsWa86ek=\u0022"},{"Name":"Last-Modified","Value":"Thu, 17 Apr 2025 19:17:18 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Electrovia/images/products/Hp_victus_Fa0033Dx_laptop.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\Hp_victus_Fa0033Dx_laptop.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-l5gJ\u002BMQX9af2zd\u002Bw180D2ytKU5KXXs3P6YmTsWa86ek="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"58271"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022l5gJ\u002BMQX9af2zd\u002Bw180D2ytKU5KXXs3P6YmTsWa86ek=\u0022"},{"Name":"Last-Modified","Value":"Thu, 17 Apr 2025 19:17:18 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Electrovia/images/products/iphone_16_plus.btr28feuif.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\iphone_16_plus.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"btr28feuif"},{"Name":"integrity","Value":"sha256-T/3qQdSZVjcUKCA3Bmb0k2y\u002BxL4RXTIgGNg5yTeZaFY="},{"Name":"label","Value":"_content/Electrovia/images/products/iphone_16_plus.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"57084"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022T/3qQdSZVjcUKCA3Bmb0k2y\u002BxL4RXTIgGNg5yTeZaFY=\u0022"},{"Name":"Last-Modified","Value":"Thu, 17 Apr 2025 19:08:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Electrovia/images/products/iphone_16_plus.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\iphone_16_plus.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-T/3qQdSZVjcUKCA3Bmb0k2y\u002BxL4RXTIgGNg5yTeZaFY="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"57084"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022T/3qQdSZVjcUKCA3Bmb0k2y\u002BxL4RXTIgGNg5yTeZaFY=\u0022"},{"Name":"Last-Modified","Value":"Thu, 17 Apr 2025 19:08:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Electrovia/images/products/iphone_16_promax.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\iphone_16_promax.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-sbJ83BTUeEROLJIfBClJ\u002BPTPKQ1KJtBEkBrsFBYPJM8="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"49215"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022sbJ83BTUeEROLJIfBClJ\u002BPTPKQ1KJtBEkBrsFBYPJM8=\u0022"},{"Name":"Last-Modified","Value":"Thu, 17 Apr 2025 19:08:16 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Electrovia/images/products/iphone_16_promax.xg97f6sanv.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\iphone_16_promax.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"xg97f6sanv"},{"Name":"integrity","Value":"sha256-sbJ83BTUeEROLJIfBClJ\u002BPTPKQ1KJtBEkBrsFBYPJM8="},{"Name":"label","Value":"_content/Electrovia/images/products/iphone_16_promax.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"49215"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022sbJ83BTUeEROLJIfBClJ\u002BPTPKQ1KJtBEkBrsFBYPJM8=\u0022"},{"Name":"Last-Modified","Value":"Thu, 17 Apr 2025 19:08:16 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Electrovia/images/products/lenovo_legion_5_laptop.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\lenovo_legion_5_laptop.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-zljaVjzjCA5C0PFuRbx7ASBHAPX6OyYemEGY\u002BUsTakg="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"67794"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022zljaVjzjCA5C0PFuRbx7ASBHAPX6OyYemEGY\u002BUsTakg=\u0022"},{"Name":"Last-Modified","Value":"Thu, 17 Apr 2025 19:14:39 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Electrovia/images/products/lenovo_legion_5_laptop.y7nlch4pmb.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\lenovo_legion_5_laptop.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"y7nlch4pmb"},{"Name":"integrity","Value":"sha256-zljaVjzjCA5C0PFuRbx7ASBHAPX6OyYemEGY\u002BUsTakg="},{"Name":"label","Value":"_content/Electrovia/images/products/lenovo_legion_5_laptop.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"67794"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022zljaVjzjCA5C0PFuRbx7ASBHAPX6OyYemEGY\u002BUsTakg=\u0022"},{"Name":"Last-Modified","Value":"Thu, 17 Apr 2025 19:14:39 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Electrovia/images/products/samsung_galaxy_buds_2.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\samsung_galaxy_buds_2.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-l8JMUgdDTxKqZ0a9rsn1JnqcsFYYgW2tmnaECZV5qpc="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"14263"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022l8JMUgdDTxKqZ0a9rsn1JnqcsFYYgW2tmnaECZV5qpc=\u0022"},{"Name":"Last-Modified","Value":"Thu, 17 Apr 2025 19:10:53 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Electrovia/images/products/samsung_galaxy_buds_2.xqyeee13nn.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\samsung_galaxy_buds_2.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"xqyeee13nn"},{"Name":"integrity","Value":"sha256-l8JMUgdDTxKqZ0a9rsn1JnqcsFYYgW2tmnaECZV5qpc="},{"Name":"label","Value":"_content/Electrovia/images/products/samsung_galaxy_buds_2.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"14263"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022l8JMUgdDTxKqZ0a9rsn1JnqcsFYYgW2tmnaECZV5qpc=\u0022"},{"Name":"Last-Modified","Value":"Thu, 17 Apr 2025 19:10:53 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Electrovia/images/products/Samsung_Galaxy_Watch_4_Classic.998dtew905.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\Samsung_Galaxy_Watch_4_Classic.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"998dtew905"},{"Name":"integrity","Value":"sha256-8x\u002BUlvbsKDvPWcQn27BGj/oGMR3nJ3L81NH5HCPphFc="},{"Name":"label","Value":"_content/Electrovia/images/products/Samsung_Galaxy_Watch_4_Classic.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"150014"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00228x\u002BUlvbsKDvPWcQn27BGj/oGMR3nJ3L81NH5HCPphFc=\u0022"},{"Name":"Last-Modified","Value":"Fri, 07 Mar 2025 00:26:20 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Electrovia/images/products/Samsung_Galaxy_Watch_4_Classic.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\Samsung_Galaxy_Watch_4_Classic.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-8x\u002BUlvbsKDvPWcQn27BGj/oGMR3nJ3L81NH5HCPphFc="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"150014"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00228x\u002BUlvbsKDvPWcQn27BGj/oGMR3nJ3L81NH5HCPphFc=\u0022"},{"Name":"Last-Modified","Value":"Fri, 07 Mar 2025 00:26:20 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Electrovia/images/products/Samsung_Galaxy_Watch_ultra_smart_watch.nfaxygtjn8.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\Samsung_Galaxy_Watch_ultra_smart_watch.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"nfaxygtjn8"},{"Name":"integrity","Value":"sha256-7Rpsn7V4zzfruGJZQh66Y/hMEiehy16uPY2M7xcC7ho="},{"Name":"label","Value":"_content/Electrovia/images/products/Samsung_Galaxy_Watch_ultra_smart_watch.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"92174"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u00227Rpsn7V4zzfruGJZQh66Y/hMEiehy16uPY2M7xcC7ho=\u0022"},{"Name":"Last-Modified","Value":"Thu, 17 Apr 2025 19:19:37 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Electrovia/images/products/Samsung_Galaxy_Watch_ultra_smart_watch.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\Samsung_Galaxy_Watch_ultra_smart_watch.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-7Rpsn7V4zzfruGJZQh66Y/hMEiehy16uPY2M7xcC7ho="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"92174"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u00227Rpsn7V4zzfruGJZQh66Y/hMEiehy16uPY2M7xcC7ho=\u0022"},{"Name":"Last-Modified","Value":"Thu, 17 Apr 2025 19:19:37 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Electrovia/images/products/sony_ps5_pro.otjlrd3gn7.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\sony_ps5_pro.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"otjlrd3gn7"},{"Name":"integrity","Value":"sha256-nNZxI94kado1uc7O8Jyh8XTIXLudgSHIos6Q9ixH9rE="},{"Name":"label","Value":"_content/Electrovia/images/products/sony_ps5_pro.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"24232"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022nNZxI94kado1uc7O8Jyh8XTIXLudgSHIos6Q9ixH9rE=\u0022"},{"Name":"Last-Modified","Value":"Thu, 17 Apr 2025 19:21:13 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Electrovia/images/products/sony_ps5_pro.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\sony_ps5_pro.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-nNZxI94kado1uc7O8Jyh8XTIXLudgSHIos6Q9ixH9rE="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"24232"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022nNZxI94kado1uc7O8Jyh8XTIXLudgSHIos6Q9ixH9rE=\u0022"},{"Name":"Last-Modified","Value":"Thu, 17 Apr 2025 19:21:13 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Electrovia/images/products/sony_watch_gt5_pro_46mm_smart_watch.1jcz1tvq8a.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\sony_watch_gt5_pro_46mm_smart_watch.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"1jcz1tvq8a"},{"Name":"integrity","Value":"sha256-Lc/MozLGEYFWv2Bze0jxuvdxhyU2FnKb7BegOt2Pyd0="},{"Name":"label","Value":"_content/Electrovia/images/products/sony_watch_gt5_pro_46mm_smart_watch.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"66610"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022Lc/MozLGEYFWv2Bze0jxuvdxhyU2FnKb7BegOt2Pyd0=\u0022"},{"Name":"Last-Modified","Value":"Thu, 17 Apr 2025 19:18:52 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Electrovia/images/products/sony_watch_gt5_pro_46mm_smart_watch.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\sony_watch_gt5_pro_46mm_smart_watch.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Lc/MozLGEYFWv2Bze0jxuvdxhyU2FnKb7BegOt2Pyd0="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"66610"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022Lc/MozLGEYFWv2Bze0jxuvdxhyU2FnKb7BegOt2Pyd0=\u0022"},{"Name":"Last-Modified","Value":"Thu, 17 Apr 2025 19:18:52 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+  </ItemGroup>
+</Project>

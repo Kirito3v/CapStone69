@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" type="Image" href="LOGO.png" >
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shipping</title>
+    <link rel="stylesheet" href="../CSS/navbar_style.css">
+    <link rel="stylesheet" href="../CSS/final_shipping.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gabarito&display=swap" rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="navbar">
+            <div class="logo">ELECTRO<span>VIA</span></div>
+        
+            <div class="search-box">
+              <input type="text" placeholder="Search">
+              <i class="fas fa-search"></i>
+            </div>
+        
+            <div class="menu-toggle" id="menu-toggle">
+              <i class="fas fa-bars"></i>
+            </div>
+        
+            <div class="nav-links" id="nav-links">
+              <a href="./Home Page/home.html">Home</a>
+              <a href="#about">About</a>
+              <a href="./about.html">Contact Us</a>
+              <div class="mobile-icons">
+                <a href=""><i class="far fa-heart"></i></a>
+                <a href="./final_cart.html"><div class="cart-icon">
+                  <i class="fas fa-shopping-cart"></i>
+                  <span class="cart-count">0</span>
+                </div></a>
+                <a href="./login page/login.html"><i class="fas fa-user"></i></a>
+              </div>
+            </div>
+        
+            <div class="icons desktop-icons">
+              <a href=""><i class="far fa-heart"></i></a>
+              <div class="cart-icon">
+                <a href="./final_cart.html"><i class="fas fa-shopping-cart"></i>
+                <span class="cart-count">0</span></a>
+              </div>
+              <a href="./login page/login.html"><i class="fas fa-user"></i></a>
+            </div>
+        </div>
+    </header>
+
+
+    <!-- Main Content -->
+    <div class="container">
+        <!-- Step Indicator -->
+        <div class="step-indicator">
+            <div class="step">
+                <i class="fas fa-map-marker-alt"></i> Step 1<br>Address
+            </div>
+            <div class="step active">
+                <i class="fas fa-truck"></i> Step 2<br>Shipping
+            </div>
+            <div class="step">
+                <i class="fas fa-credit-card"></i> Step 3<br>Payment
+            </div>
+        </div>
+
+     <!-- Shipment Method Section -->
+<div class="shipment-method">
+    <h2>Shipment Method</h2>
+
+    <!-- Free Regular Shipment -->
+    <label class="shipment-option" aria-label="Free Regular Shipment">
+        <div>
+            <input type="radio" name="shipment" value="free" checked>
+            Free Regular shipment
+        </div>
+        <div class="delivery-date">17 Oct, 2023</div>
+    </label>
+
+    <!-- Express Shipment -->
+    <label class="shipment-option" aria-label="Express Shipment">
+        <div>
+            <input type="radio" name="shipment" value="express">
+            $8.50 Get your delivery as soon as possible
+        </div>
+        <div class="delivery-date">1 Oct, 2023</div>
+    </label>
+
+<!-- Schedule Shipment -->
+<label class="shipment-option" aria-label="Schedule Shipment">
+    <div class="option-content">
+        <input type="radio" name="shipment" value="schedule">
+        <span>Schedule Pick a date when you want to get your delivery</span>
+    </div>
+    <div class="delivery-date">Select Date</div>
+    <div class="date-picker-container">
+        <input type="date" id="deliveryDate" class="date-picker" min="">
+    </div>
+</label>
+</div>
+
+        <!-- Buttons -->
+        <div class="buttons">
+            <a href="final_address.html" class="btn btn-back">Back</a>
+            <a href="final_payment.html" class="btn btn-next">Next</a>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-brand">
+                <h2>ELECTROVIA</h2>
+                <section id="about">
+                <p>
+                    We are a residential interior design firm located in Portland. Our boutique-studio offers more than
+                </p>
+                <div class="footer-social">
+                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+                </div>
+                </section>
+            </div>
+            <div class="footer-links">
+                <div class="footer-column">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#">Bonus program</a></li>
+                        <li><a href="#">Gift cards</a></li>
+                        <li><a href="#">Credit and payment</a></li>
+                        <li><a href="#">Service contracts</a></li>
+                        <li><a href="#">Non-cash account</a></li>
+                        <li><a href="#">Payment</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Assistance to the buyer</h4>
+                    <ul>
+                        <li><a href="#">Find an order</a></li>
+                        <li><a href="#">Terms of delivery</a></li>
+                        <li><a href="#">Exchange and return of goods</a></li>
+                        <li><a href="#">Guarantee</a></li>
+                        <li><a href="#">Frequently asked questions</a></li>
+                        <li><a href="#">Terms of use of the site</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script>
+
+// Initialize date picker visibility
+document.querySelectorAll('input[name="shipment"]').forEach(radio => {
+    radio.addEventListener('change', function() {
+        const dateContainer = this.closest('.shipment-option').querySelector('.date-picker-container');
+        const dateDisplay = this.closest('.shipment-option').querySelector('.delivery-date');
+        
+        if (this.value === 'schedule') {
+            dateContainer.style.display = 'block';
+            dateDisplay.style.display = 'none';
+            document.getElementById('deliveryDate').required = true;
+        } else {
+            dateContainer.style.display = 'none';
+            dateDisplay.style.display = 'block';
+        }
+    });
+});
+
+        document.addEventListener('DOMContentLoaded', function() {
+            // Set minimum date for date picker (today + 3 days)
+            const dateInput = document.getElementById('deliveryDate');
+            const today = new Date();
+            const minDate = new Date();
+            minDate.setDate(today.getDate() + 3); // Minimum 3 days from today
+            dateInput.min = minDate.toISOString().split('T')[0];
+            
+            // Calculate and set dynamic delivery dates
+            const deliveryDates = document.querySelectorAll('.delivery-date');
+            
+            // Free shipping date (7 days from now)
+            const freeDate = new Date();
+            freeDate.setDate(today.getDate() + 7);
+            deliveryDates[0].textContent = formatDate(freeDate);
+            
+            // Express shipping date (2 days from now)
+            const expressDate = new Date();
+            expressDate.setDate(today.getDate() + 2);
+            deliveryDates[1].textContent = formatDate(expressDate);
+            
+            // Handle shipment method selection
+            const shipmentOptions = document.querySelectorAll('input[name="shipment"]');
+            shipmentOptions.forEach(option => {
+                option.addEventListener('change', function() {
+                    if (this.value === 'schedule') {
+                        dateInput.required = true;
+                    } else {
+                        dateInput.required = false;
+                    }
+                });
+            });
+            
+            // Handle next button click
+            document.querySelector('.btn-next').addEventListener('click', function(e) {
+                const selectedMethod = document.querySelector('input[name="shipment"]:checked').value;
+                
+                if (selectedMethod === 'schedule' && !dateInput.value) {
+                    e.preventDefault();
+                    alert('Please select a delivery date');
+                    return;
+                }
+                
+                // Save shipping method to localStorage
+                const shippingInfo = {
+                    method: selectedMethod,
+                    cost: selectedMethod === 'express' ? 8.50 : 0,
+                    date: selectedMethod === 'schedule' ? 
+                        formatDate(new Date(dateInput.value)) : 
+                        selectedMethod === 'express' ? 
+                        formatDate(expressDate) : 
+                        formatDate(freeDate)
+                };
+                
+                localStorage.setItem('shippingMethod', JSON.stringify(shippingInfo));
+            });
+            
+            // Helper function to format dates
+            function formatDate(date) {
+                const options = { day: 'numeric', month: 'short', year: 'numeric' };
+                return date.toLocaleDateString('en-US', options);
+            }
+        });
+        
+    </script>
+
+
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        // Calculate dynamic dates
+        const today = new Date();
+        const freeDate = new Date(today);
+        freeDate.setDate(today.getDate() + 7);
+        
+        const expressDate = new Date(today);
+        expressDate.setDate(today.getDate() + 2);
+        
+        // Update delivery dates
+        document.querySelectorAll('.delivery-date')[0].textContent = formatDate(freeDate);
+        document.querySelectorAll('.delivery-date')[1].textContent = formatDate(expressDate);
+        
+        // Set min date for date picker (3 days from today)
+        const dateInput = document.getElementById('deliveryDate');
+        const minDate = new Date(today);
+        minDate.setDate(today.getDate() + 3);
+        dateInput.min = minDate.toISOString().split('T')[0];
+        
+        // Handle shipment selection
+        document.querySelector('.btn-next').addEventListener('click', function(e) {
+            const selectedMethod = document.querySelector('input[name="shipment"]:checked').value;
+            let shippingCost = 0;
+            let deliveryDate;
+            
+            if (selectedMethod === 'free') {
+                shippingCost = 0;
+                deliveryDate = formatDate(freeDate);
+            } 
+            else if (selectedMethod === 'express') {
+                shippingCost = 8.50;
+                deliveryDate = formatDate(expressDate);
+            } 
+            else if (selectedMethod === 'schedule') {
+                if (!dateInput.value) {
+                    e.preventDefault();
+                    alert('Please select a delivery date');
+                    return;
+                }
+                shippingCost = 5.00; // Scheduled shipping cost
+                deliveryDate = formatDate(new Date(dateInput.value));
+            }
+            
+            // Save shipping info to localStorage
+            localStorage.setItem('shippingInfo', JSON.stringify({
+                method: selectedMethod,
+                cost: shippingCost,
+                date: deliveryDate
+            }));
+        });
+        
+        function formatDate(date) {
+            return date.toLocaleDateString('en-US', { 
+                day: 'numeric', 
+                month: 'short', 
+                year: 'numeric' 
+            });
+        }
+    });
+
+    const toggle = document.getElementById('menu-toggle');
+    const navLinks = document.getElementById('nav-links');
+
+    toggle.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+    });
+
+    // Close menu on link click (mobile)
+    document.querySelectorAll('.nav-links a').forEach(link => {
+      link.addEventListener('click', () => {
+        navLinks.classList.remove('active');
+      });
+    });
+</script>
+
+</body>
+</html>

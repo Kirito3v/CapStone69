@@ -1,0 +1,228 @@
+        /* جعل الشريط ثابتًا */
+        .navbar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: white; 
+            z-index: 1000;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 10px 0;
+        }
+
+        /* منع الشريط من تغطية المحتوى */
+        body {
+            padding-top: 70px; /* حسب ارتفاع الشريط */
+        }
+
+        /* تنسيق صندوق البحث */
+        .search-box {
+            position: relative;
+            margin-left: 20px;
+        }س
+
+        .search-box input {
+            padding-right: 40px;
+        }
+
+        .search-box .search-icon {
+            position: absolute;
+            right: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+            cursor: pointer;
+            color: black;
+        }
+
+        /* تنسيق الروابط */
+        .navbar-nav .nav-link {
+            color: black !important;
+        }
+
+        /* تنسيق الأيقونات */
+        .icon-links {
+            margin-left: 20px;
+        }
+
+        .icon-links a {
+            color: black;
+            font-size: 1.2rem;
+            margin-right: 15px;
+        }
+
+        
+       
+
+
+
+
+
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            margin: 0;
+            padding: 0;
+        }
+        .discount-section {
+            text-align: center;
+            padding: 50px 0;
+        }
+        .discount-title {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 30px;
+        }
+        .discount-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .discount-card {
+            background: #f1f1f1;
+            padding: 20px;
+            text-align: center;
+            width: 250px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+        .discount-card:hover {
+            transform: scale(1.05);
+        }
+        .discount-card img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        .discount-card h6, .discount-card p, .buy-btn {
+            display: block;
+            text-align: center;
+        }
+        .discount-card h6 {
+            font-size: 18px;
+            margin-top: 10px;
+        }
+        .discount-card p {
+            font-size: 16px;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+        .buy-btn {
+            background: black;
+            color: white;
+            padding: 10px 15px;
+            text-decoration: none;
+            display: inline-block;
+            border-radius: 5px;
+            font-size: 14px;
+            width: 100%;
+            text-align: center;
+        }
+
+
+
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .breadcrumb {
+            background: none;
+            font-size: 1rem;
+        }
+        .breadcrumb a {
+            text-decoration: none;
+            color: inherit;
+        }
+        .thumbnail-img {
+            cursor: pointer;
+            opacity: 0.6;
+            width: 80px;
+            border-radius: 5px;
+        }
+        .thumbnail-img.active {
+            opacity: 1;
+            border: 2px solid #000;
+        }
+        .color-option {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: inline-block;
+            cursor: pointer;
+            border: 2px solid transparent;
+        }
+        .color-option.selected {
+            border: 3px solid black;
+        }
+        .storage-option {
+            font-size: 1.3rem;
+            padding: 12px 24px;
+        }
+        .storage-option.selected {
+            background-color: black;
+            color: white;
+        }
+        .btn {
+            font-size: 1.3rem;
+            padding: 14px 28px;
+        }
+        .product-info {
+            max-width: 500px;
+        }
+        .logo {
+            width: 120px;
+        }
+        .feature-box {
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            text-align: center;
+            font-size: 1.1rem;
+        }
+
+
+
+
+
+
+
+       
+        /* Footer Section */
+        .footer {
+            background-color: black;
+            color: white;
+            padding: 50px 0;
+        }
+        .footer h5 {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 15px;
+            text-align: left;
+        }
+        .footer p, .footer ul {
+            font-size: 14px;
+            color: #ccc;
+            list-style: none;
+            padding: 0;
+            text-align: left;
+        }
+        .footer ul li {
+            margin-bottom: 5px;
+        }
+        .footer .social-icons {
+            margin-top: 15px;
+            text-align: left;
+        }
+        .footer .social-icons a {
+            color: white;
+            margin-right: 10px;
+            font-size: 20px;
+            text-decoration: none;
+        }
+
+
+
+
+
+

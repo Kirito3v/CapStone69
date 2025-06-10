@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="ELECTROVIA">
+
+<head>
+    <link rel="icon" type="Image" href="../LOGO.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ELECTROVIA</title>
+    <link rel="stylesheet" href="../../CSS/navbar_style.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+    <script defer src="script.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo">ELECTRO<span>VIA</span></div>
+        
+            <div class="search-box">
+              <input type="text" placeholder="Search">
+              <i class="fas fa-search"></i>
+            </div>
+        
+            <div class="menu-toggle" id="menu-toggle">
+              <i class="fas fa-bars"></i>
+            </div>
+        
+            <div class="nav-links" id="nav-links">
+              <a href="home.html">Home</a>
+              <a href="#about">About</a>
+              <a href="../about.html">Contact Us</a>
+              <div class="mobile-icons">
+                <a href="../wishlist.html"><i class="far fa-heart"></i></a>
+                <a href="../final_cart.html"><div class="cart-icon">
+                  <i class="fas fa-shopping-cart"></i>
+                  <span class="cart-count">0</span>
+                </div></a>
+                <a href="../login page/login.html"><i class="fas fa-user"></i></a>
+              </div>
+            </div>
+        
+            <div class="icons desktop-icons">
+              <a href="../wishlist.html"><i class="far fa-heart"></i></a>
+              <div class="cart-icon">
+                <a href="../final_cart.html"><i class="fas fa-shopping-cart"></i>
+                <span class="cart-count">0</span></a>
+              </div>
+              <a href="../login page/login.html"><i class="fas fa-user"></i></a>
+            </div>
+        </div>
+    </header>
+
+
+    <section class="hero-section">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <div class="hero-content">
+                        
+                        <h1>iPhone 16 <span>proMax</span></h1>
+                        <p>Created to change everything for the better. For everyone</p>
+                        <a href="../final_products.html" class="hero-btn">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <div class="container-fluid product-section">
+        <div class="row">
+           
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-md-12 d-flex align-items-center bg-white">
+                        <div class="container d-flex">
+                            <div class="image-container">
+                                <img src="images/2.jpg" alt="Playstation 5">
+                            </div>
+                            <div class="text-content">
+                                <h2>Playstation 5</h2>
+                                <p>Incredibly powerful CPUs, GPUs, and an SSD with integrated I/O will redefine your
+                                    PlayStation experience.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-12">
+                        <div class="row">
+                            <div class="col-md-6 d-flex align-items-center bg-white">
+                                <div class="container d-flex">
+                                    <div class="image-container">
+                                        <img src="images/3.png" alt="AirPods Max">
+                                    </div>
+                                    <div class="text-content">
+                                        <h2>Apple AirPods <span>Max</span></h2>
+                                        <p>Computational audio. Listen, it's powerful.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6 d-flex align-items-center bg-dark-gray">
+                                <div class="container d-flex">
+                                    <div class="image-container">
+                                        <img src="images/vision.png" alt="Vision Pro">
+                                    </div>
+                                    <div class="text-content">
+                                        <h2>Apple Vision <span>Pro</span></h2>
+                                        <p>An immersive way to experience entertainment.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 d-flex align-items-center bg-light-gray">
+                <div class="container d-flex image-right">
+                    <div class="text-content">
+                        <h2>Macbook <span>Air</span></h2>
+                        <p>The new 15-inch MacBook Air makes room for more of what you love with a spacious Liquid
+                            Retina display.</p>
+                        <a href="../final_products.html" class="shop-btn">Shop Now</a>
+                    </div>
+                    <div class="image-container">
+                        <img src="images/mac.png" alt="Macbook Air">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="container">
+        <div class="category-section" id="categorySection">
+            <h4 class="mb-4">Browse By Category</h4>
+            <div class="row row-cols-3 row-cols-md-6 g-3 justify-content-center">
+                <div class="col">
+                    <a href="../phones_catergory.html" class="category-box" data-delay="0.1s">
+                        <i class="fas fa-mobile-alt"></i>
+                        <p>Phones</p>
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="../smartwatches_category.html" class="category-box" data-delay="0.2s">
+                        <i class="fas fa-clock"></i>
+                        <p>Smart Watches</p>
+                    </a>
+                </div>
+
+                <div class="col">
+                    <a href="../headphones_category.html" class="category-box" data-delay="0.4s">
+                        <i class="fas fa-headphones-alt"></i>
+                        <p>Headphones</p>
+                    </a>
+                </div>
+
+                <div class="col">
+                    <a href="../computer_category.html" class="category-box" data-delay="0.5s">
+                        <i class="fas fa-desktop"></i>
+                        <p>Computers</p>
+                    </a>
+                </div>
+
+                <div class="col">
+                    <a href="../gaming_category.html" class="category-box" data-delay="0.6s">
+                        <i class="fas fa-gamepad"></i>
+                        <p>Gaming</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="container py-5">
+        <ul class="nav nav-tabs">
+            <li class="nav-item">
+                <a class="nav-link active" onclick="showSection('new-arrival', this)">New Arrival</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" onclick="showSection('bestseller', this)">Bestseller</a>
+            </li>
+
+        </ul>
+
+        <div id="new-arrival" class="products-section active">
+            <div class="product-card">
+                <img src="../product details/images/iphone16promax-digitalmat-gallery-3-202409.jpeg" alt="iPhone 16 Promax">
+                <h6>IPhone 16 Promax </h6>
+                <div class="price">$1299</div>
+                <a href="../product details/productone.html" class="btn-buy">Buy Now</a>
+            </div>
+            <div class="product-card">
+                <img src="../product details/images/iphone16plus-digitalmat-gallery-3-202409.jpeg" alt="Iphone 16 Plus">
+                <h6>Iphone 16 Plus</h6>
+                <div class="price">$999</div>
+                <a href="../product details/producttwo.html" class="btn-buy">Buy Now</a>
+            </div>
+            <div class="product-card">
+                <img src="images/apple_watch-removebg-preview.png" alt="Apple Watch">
+                <h6>Apple Watch Ultra 2 49mm</h6>
+                <div class="price">$699</div>
+                <a href="../product details/productfour.html" class="btn-buy">Buy Now</a>
+            </div>
+            <div class="product-card">
+                <img src="images/3.png" alt="AirPods Max">
+                <h6>AirPods Max Silver</h6>
+                <div class="price">$549</div>
+                <a href="../product details/productthree.html" class="btn-buy">Buy Now</a>
+            </div>
+            <div class="product-card">
+                <img src="../product details/images/Samsung-Galaxy-Watch-4-Classic1.jpg" alt="Samsung Watch">
+                <h6>Samsung Galaxy Watch 6</h6>
+                <div class="price">$480</div>
+                <a href="../product details/productfive.html" class="btn-buy">Buy Now</a>
+            </div>
+            <div class="product-card">
+                <img src="../product details/images/S25ultra1.png" alt="Samsung Galaxy A05s">
+                <h6>Samsung Galaxy S25 Ultra</h6>
+                <div class="price">$1300</div>
+                <a href="../product details/productsix.html" class="btn-buy">Buy Now</a>
+            </div>
+            <div class="product-card">
+                <img src="images/galaxy_buds-removebg-preview.png" alt="Galaxy Buds">
+                <h6>Samsung Galaxy Buds 2</h6>
+                <div class="price">$300</div>
+                <a href="../product details/productseven.html" class="btn-buy">Buy Now</a>
+            </div>
+            <div class="product-card">
+                <img src="../product details/images/ipadAir1.png" alt="iPad Air">
+                <h6>Apple Ipad Air 11"</h6>
+                <div class="price">$600</div>
+                <a href="../product details/producteight.html" class="btn-buy">Buy Now</a>
+            </div>
+        </div>
+
+        <div id="bestseller" class="product-section">
+        </div>
+        <div id="featured" class="product-section">
+        </div>
+    </div>
+
+
+
+    <div class="container-fluid">
+        <div class="product-section-3">
+            <div class="product-card-3">
+                <img src="images/11-removebg-preview.png" alt="Popular Products">
+                <h6>Popular Products</h6>
+                <p>iPad combines a magnificent 10.2-inch Retina display, incredible performance, multitasking and ease of use.</p>
+                <a href="../final_products.html" class="shop-btn">Shop Now</a>
+            </div>
+            <div class="product-card-3">
+                <img src="images/apple-ipad-removebg-preview.png" alt="iPad Pro">
+                <h6>iPad Pro</h6>
+                <p>iPad combines a magnificent 10.2-inch Retina display, incredible performance, multitasking and ease of use.</p>
+                <a href="../final_products.html" class="shop-btn">Shop Now</a>
+            </div>
+            <div class="product-card-3">
+                <img src="images/samsung-galaxy-z--removebg-preview.png" alt="Samsung Galaxy">
+                <h6>Samsung Galaxy</h6>
+                <p>iPad combines a magnificent 10.2-inch Retina display, incredible performance, multitasking and ease of use.</p>
+                <a href="../final_products.html" class="shop-btn">Shop Now</a>
+            </div>
+            <div class="product-card-3">
+                <img src="images/mac.png" alt="MacBook Pro">
+                <h6>MacBook Pro</h6>
+                <p>iPad combines a magnificent 10.2-inch Retina display, incredible performance, multitasking and ease of use.</p>
+                <a href="../final_products.html" class="shop-btn">Shop Now</a>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="container-fluid">
+        <div class="discount-section">
+            <div class="discount-title">Discounts up to 50%</div>
+            <div class="discount-container">
+                <div class="discount-card">
+                    <img src="images/S25ultra1.png" alt="Samsung Galaxy S25 Ultra">
+                    <h6>Samsung Galaxy S25 Ultra (Black)</h6>
+                    <p>$1200</p>
+                    <a href="../product details/productsix.html" class="buy-btn">Buy Now</a>
+                </div>
+                <div class="discount-card">
+                    <img src="images/3.png" alt="AirPods Max Silver">
+                    <h6>AirPods Max Silver Starlight Aluminium</h6>
+                    <p>$549</p>
+                    <a href="../product details/headphone_h1.html" class="buy-btn">Buy Now</a>
+                </div>
+                <div class="discount-card">
+                    <img src="images/apple_watch-removebg-preview.png" alt="Apple Watch Series 9">
+                    <h6>Apple Watch Series 9 GPS 41mm Starlight Aluminium</h6>
+                    <p>$399</p>
+                    <a href="../product details/smartwatch_w3.html" class="buy-btn">Buy Now</a>
+                </div>
+                <div class="discount-card">
+                    <img src="images/iphone 16 pro max.jpg" alt="iPhone 1 Pro Max 1TB Gold">
+                    <h6>Apple iPhone 16 Pro Max 1TB Gold</h6>
+                    <p>$1499</p>
+                    <a href="../product details/productone.html" class="buy-btn">Buy Now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="sale-section">
+        <img src="images/11-removebg-preview.png" alt="Left Image" class="sale-image left">
+        <div class="container">
+            <h1 class="sale-title">Big Summer <span style="color: yellow;">Sale</span></h1>
+            <p class="sale-text">Commodo fames vitae vitae leo mauris in. Eu consequat.</p>
+            <a href="../final_products.html" class="shop-btn">Shop Now</a>
+        </div>
+        <img src="images/3.png" alt="Right Image" class="sale-image right">
+    </div>
+
+
+    
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <section id="about">
+                    <h5>ELECTROVIA</h5>
+                    <p>We are a residential interior design firm located in Portland. Our boutique-studio offers more than</p>
+                    </section>
+                </div>
+                <div class="col-md-4">
+                    <h5>Services</h5>
+                    <ul>
+                        <li>Bonus program</li>
+                        <li>Gift cards</li>
+                        <li>Credit and payment</li>
+                        <li>Service contracts</li>
+                        <li>Non-cash account</li>
+                        <li>Payment</li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5>Assistance to the buyer</h5>
+                    <ul>
+                        <li>Find an order</li>
+                        <li>Terms of delivery</li>
+                        <li>Exchange and return of goods</li>
+                        <li>Guarantee</li>
+                        <li>Frequently asked questions</li>
+                        <li>Terms of use of the site</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="footer-social">
+                        <a style="color:white" href="#" aria-label="Twitter" ><i class="fab fa-twitter"></i></a>
+                        <a style="color:white" href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                        <a style="color:white" href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a style="color:white" href="#" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script>
+        const toggle = document.getElementById('menu-toggle');
+        const navLinks = document.getElementById('nav-links');
+    
+        toggle.addEventListener('click', () => {
+          navLinks.classList.toggle('active');
+        });
+    
+        // Close menu on link click (mobile)
+        document.querySelectorAll('.nav-links a').forEach(link => {
+          link.addEventListener('click', () => {
+            navLinks.classList.remove('active');
+          });
+        });
+      </script>
+  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,150 @@
+﻿@using Electrovia.DTOs
+@model Pagination<ProductDTO>
+@{
+    ViewData["Title"] = "Products";
+    Layout = "_Layout";
+}
+
+
+
+<link rel="stylesheet" href="~/css/navbar_style.css">
+<link rel="stylesheet" href="~/css/final_products.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gabarito&display=swap" rel="stylesheet">
+<!-- Font Awesome for Icons -->
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+
+
+
+<div class="container">
+    <aside class="filter">
+        <h2>Filter By</h2>
+        <!-- Search Bar -->
+        <div class="filter-search">
+            <input type="text" placeholder="Search...">
+            <button><i class="fas fa-search"></i></button>
+        </div>
+
+        <section>
+            <details>
+                <summary><h3>Brand</h3></summary>
+                <div class="filter-options">
+                    <label><input type="checkbox"> Apple</label>
+                    <label><input type="checkbox"> Samsung</label>
+                    <label><input type="checkbox"> Xiaomi</label>
+                    <label><input type="checkbox"> Poco</label>
+                    <label><input type="checkbox"> OPPO</label>
+                    <label><input type="checkbox"> Honor</label>
+                    <label><input type="checkbox"> Motorola</label>
+                </div>
+            </details>
+        </section>
+
+        <section>
+            <details>
+                <summary><h3>Battery Capacity</h3></summary>
+                <div class="filter-options">
+                    <label><input type="checkbox"> Up to 3000 mAh</label>
+                    <label><input type="checkbox"> 3000 - 4000 mAh</label>
+                    <label><input type="checkbox"> Above 4000 mAh</label>
+                </div>
+            </details>
+        </section>
+
+        <section>
+            <details>
+                <summary><h3>Screen Diagonal</h3></summary>
+                <div class="filter-options">
+                    <label><input type="checkbox"> Up to 5.5"</label>
+                    <label><input type="checkbox"> 5.5" - 6.5"</label>
+                    <label><input type="checkbox"> Above 6.5"</label>
+                </div>
+            </details>
+        </section>
+
+        <section>
+            <details>
+                <summary><h3>Built-in Memory</h3></summary>
+                <div class="filter-options">
+                    <label><input type="checkbox"> 64GB</label>
+                    <label><input type="checkbox"> 128GB</label>
+                    <label><input type="checkbox"> 256GB</label>
+                    <label><input type="checkbox"> 512GB</label>
+                    <label><input type="checkbox"> 1TB</label>
+                </div>
+            </details>
+        </section>
+    </aside>
+    <main class="products">
+        <div class="product-list">
+            <!-- Products -->
+            @if (Model != null)
+                @foreach (var product in Model.Data)
+                {
+                    <div class="product-item">
+                        <div class="product-header" >
+                            <img src="@product.PictureUrl" alt="@product.Name">
+                            <div 
+                              class="favorite-icon" 
+                              data-product-id="@product.Id" 
+                              aria-label="Toggle wishlist">
+                              <i class="@(false ? "fas fa-heart" : "far fa-heart")"></i>
+                            </div>
+                        </div>
+                        <h2>@product.Name</h2>
+                        <p class="price">$@product.Price</p>
+                        <a asp-controller="Products" asp-action="ProductDetailsView" asp-route-product_id="@product.Id">Buy Now</a>
+                    </div>
+                }
+            <!-- Pagination Section -->
+             <div class="pagination">
+                @if (Model != null)
+                {
+
+                    var routeValues = ViewContext.RouteData
+                    .Values
+                    .ToDictionary(
+                    kv => kv.Key,
+                    kv => kv.Value?.ToString() ?? ""
+                    );
+
+                    foreach (var q in ViewContext.HttpContext.Request.Query)
+                    {
+                        routeValues[q.Key] = q.Value.ToString();
+                    }
+
+
+
+                    int count = (int)Math.Ceiling(Model.Count / (double)Model.Pageindex);
+
+                    for(int i = 1; i < count+1; i++)
+                    {
+                        routeValues["PageIndex"] = i.ToString();
+
+                   
+
+                        if(i == Model.Pagesize)
+                        {
+                            <button class="page-btn active">@(i)</button>
+                        }
+                        else
+                        {
+                            <a class="page-btn"
+                               asp-controller="Products"
+                               asp-action="Index"
+                               asp-all-route-data="routeValues">
+                                @(i)
+                            </a>
+
+                        }
+
+                    }
+                }
+                @* <button class="page-btn next-btn">Next</button> *@
+            </div> 
+        </div>
+    </main>
+</div>

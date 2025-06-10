@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="cyberStore">
+
+<head>
+    <link rel="icon" type="Image" href="../LOGO.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ELECTROVIA</title>
+    <link rel="stylesheet" href="../../CSS/navbar_style.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+    <script defer src="script.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo">ELECTRO<span>VIA</span></div>
+        
+            <div class="search-box">
+              <input type="text" placeholder="Search">
+              <i class="fas fa-search"></i>
+            </div>
+        
+            <div class="menu-toggle" id="menu-toggle">
+              <i class="fas fa-bars"></i>
+            </div>
+        
+            <div class="nav-links" id="nav-links">
+              <a href="../Home Page/home.html">Home</a>
+              <a href="#about">About</a>
+              <a href="../about.html">Contact Us</a>
+              <div class="mobile-icons">
+                <a href="../wishlist.html"><i class="far fa-heart"></i></a>
+                <a href="../final_cart.html"><div class="cart-icon">
+                  <i class="fas fa-shopping-cart"></i>
+                  <span class="cart-count">0</span>
+                </div></a>
+                <a href="../login page/login.html"><i class="fas fa-user"></i></a>
+              </div>
+            </div>
+        
+            <div class="icons desktop-icons">
+              <a href="../wishlist.html"><i class="far fa-heart"></i></a>
+              <div class="cart-icon">
+                <a href="../final_cart.html"><i class="fas fa-shopping-cart"></i>
+                <span class="cart-count">0</span></a>
+              </div>
+              <a href="../login page/login.html"><i class="fas fa-user"></i></a>
+            </div>
+        </div>
+    </header>
+
+
+    <div class="container mt-3">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#">Home</a></li>
+                <li class="breadcrumb-item"><a href="#">Catalog</a></li>
+                <li class="breadcrumb-item"><a href="#">Smartphones</a></li>
+                <li class="breadcrumb-item"><a href="#">Apple</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Samsung Galaxy S25 Ultra</li>
+            </ol>
+        </nav>
+        <div class="row">
+            <div class="col-md-2 d-flex flex-column">
+                <img alt="phone" src="images/S25ultra1.png" class="img-fluid thumbnail-img mb-2 active" onclick="changeImage(this)">
+                <img alt="whatch" src="images/S25ultra2.png" class="img-fluid thumbnail-img mb-2" onclick="changeImage(this)">
+                <img alt="phone" src="images/S25ultra3.png" class="img-fluid thumbnail-img mb-2" onclick="changeImage(this)">
+                <img alt="phone" src="images/S25ultra4.png" class="img-fluid thumbnail-img mb-2" onclick="changeImage(this)">
+            </div>
+            <div class="col-md-5">
+                <img alt="phone" id="main-image" src="images/S25ultra2.png" class="img-fluid border p-2 w-100">
+            </div>
+            <div class="col-md-5 product-info">
+                <h2 class="fw-bold">Samsung Galaxy S25 Ultra</h2>
+                <p class="fs-3 text-dark">$1300 <del class="text-muted fs-4">$1500</del></p>
+                <p class="fw-semibold">Select color:</p>
+                <div>
+                    <span alt="Black Titanium" class="color-option" style="background-color: rgb(63, 63, 63);" onclick="selectColor(this, 'Black Titanium')"></span>
+                    <span alt="Natural Titanium" class="color-option" style="background-color:rgb(236, 229, 219);" onclick="selectColor(this, 'Natural Titanium')"></span>
+                    <span alt="White Titanium" class="color-option" style="background-color: rgb(249, 249, 247);" onclick="selectColor(this, 'White Titanium')"></span>
+                    <span alt="Desert Titanium" class="color-option" style="background-color:rgb(209, 191, 177);" onclick="selectColor(this, 'Desert Titanium')"></span>
+                </div>
+                <p class="fw-semibold mt-3">Select Storage:</p>
+                <div class="mt-3">
+                    <button class="btn btn-outline-secondary storage-option" onclick="selectStorage(this, '256GB')">256GB</button>
+                    <button class="btn btn-outline-secondary storage-option" onclick="selectStorage(this, '512GB')">512GB</button>
+                    <button class="btn btn-outline-secondary storage-option" onclick="selectStorage(this, '1TB')">1TB</button>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4 feature-box">Display size (inches)<br><strong>6.9</strong></div>
+                    <div class="col-md-4 feature-box">Processor<br><strong>A18 Pro chip</strong></div>
+                    <div class="col-md-4 feature-box">Cores<br><strong>6</strong></div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-md-4 feature-box">Main Camera<br><strong>48-12-12 MP</strong></div>
+                    <div class="col-md-4 feature-box">Front Camera<br><strong>12 MP</strong></div>
+                    <div class="col-md-4 feature-box">Battery<br><strong>4323 mAh</strong></div>
+                </div>
+                <p class="mt-3 text-muted">
+                    Enhanced capabilities thanks to an enlarged display of 6.9 inches and work without recharging throughout the day.
+                    Incredible photos in weak and bright lighting using the new system with two cameras.
+                </p>
+                <div class="mt-3">
+                    <button class="btn btn-outline-secondary me-2">Add to Wishlist</button>
+                    <button class="btn btn-dark" id="addToCartBtn">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="container-fluid">
+        <div class="discount-section">
+            <div class="discount-title">Related Products</div>
+            <div class="discount-container">
+                <div class="discount-card">
+                    <img src="images/iphone16promax-digitalmat-gallery-3-202409.jpeg" alt="iPhone 16 proMax">
+                    <h6>Apple iPhone 16 proMax</h6>
+                    <p>$1299</p>
+                    <a href="#" class="buy-btn">Buy Now</a>
+                </div>
+                <div class="discount-card">
+                    <img src="images/airpods-max-select-202409-midnight_FV1.jpeg" alt="AirPods Max Midnight">
+                    <h6>AirPods Max</h6>
+                    <p>$549</p>
+                    <a href="productthree.html" class="buy-btn">Buy Now</a>
+                </div>
+                <div class="discount-card">
+                    <img src="images/watch-hermes-ultra-digitalmat-gallery-1-202503.png" alt="Apple Watch Ultra 2 49mm">
+                    <h6>Apple Watch Ultra 2 49mm</h6>
+                    <p>$399</p>
+                    <a href="productfour.html" class="buy-btn">Buy Now</a>
+                </div>
+                <div class="discount-card">
+                    <img src="images/iphone16plus-digitalmat-gallery-3-202409.jpeg" alt="iPhone 16 Plus">
+                    <h6>Apple IPhone 16 Plus </h6>
+                    <p>$1499</p>
+                    <a href="producttwo.html" class="buy-btn">Buy Now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+    
+    <!-- Footer Section -->
+    <footer class="footer">
+        <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>ELECTROVIA</h5>
+                    <p>We are a residential interior design firm located in Portland. Our boutique-studio offers more than</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Services</h5>
+                    <ul>
+                        <li>Bonus program</li>
+                        <li>Gift cards</li>
+                        <li>Credit and payment</li>
+                        <li>Service contracts</li>
+                        <li>Non-cash account</li>
+                        <li>Payment</li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5>Assistance to the buyer</h5>
+                    <ul>
+                        <li>Find an order</li>
+                        <li>Terms of delivery</li>
+                        <li>Exchange and return of goods</li>
+                        <li>Guarantee</li>
+                        <li>Frequently asked questions</li>
+                        <li>Terms of use of the site</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="footer-social">
+                        <a style="color:white" href="#" aria-label="Twitter" ><i class="fab fa-twitter"></i></a>
+                        <a style="color:white" href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                        <a style="color:white" href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a style="color:white" href="#" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+
+    <script>
+        // Add to Cart functionality - Generic version for all product pages
+        document.addEventListener('DOMContentLoaded', function() {
+            // Initialize cart counter
+            updateCartCounter();
+    
+            // Set up Add to Cart button
+            const addToCartBtn = document.getElementById('addToCartBtn');
+            if (addToCartBtn) {
+                addToCartBtn.addEventListener('click', addToCart);
+            }
+    
+            // Track selected options
+            const productOptions = {
+                color: null,
+                storage: null,
+                size: null
+                // Add other option types as needed
+            };
+    
+            // Generic option selection handler
+            function setupOptionSelection(optionClass, optionType) {
+                const options = document.querySelectorAll(optionClass);
+                if (options.length > 0) {
+                    // Set default selected value
+                    productOptions[optionType] = options[0].getAttribute('alt') || options[0].textContent;
+                    options[0].classList.add('selected');
+    
+                    // Add click handlers
+                    options.forEach(option => {
+                        option.addEventListener('click', function() {
+                            document.querySelectorAll(optionClass).forEach(opt => opt.classList.remove('selected'));
+                            this.classList.add('selected');
+                            productOptions[optionType] = this.getAttribute('alt') || this.textContent;
+                        });
+                    });
+                }
+            }
+    
+            // Initialize all product options
+            setupOptionSelection('.color-option', 'color');
+            setupOptionSelection('.storage-option', 'storage');
+            setupOptionSelection('.size-option', 'size');
+            // Add more option types as needed
+    
+            function addToCart() {
+                // Get the price element and properly extract just the current price
+                const priceElement = document.querySelector('.product-info .fs-3');
+                let priceText;
+                
+                // Handle both possible price formats:
+                // 1. <p class="fs-3">$4800 <del>$5200</del></p>
+                // 2. <p class="fs-3"><span>$4800</span> <del>$5200</del></p>
+                if (priceElement.firstElementChild && priceElement.firstElementChild.tagName === 'SPAN') {
+                    priceText = priceElement.firstElementChild.textContent;
+                } else {
+                    priceText = priceElement.childNodes[0].nodeValue;
+                }
+                
+                // Get product details
+                const product = {
+                    id: document.querySelector('.product-info').getAttribute('data-product-id') || 
+                        document.querySelector('.product-info h2').textContent.toLowerCase().replace(/\s+/g, '-') + '-' + Date.now(),
+                    name: document.querySelector('.product-info h2').textContent,
+                    price: parseFloat(priceText.replace(/[^0-9.]/g, '')),
+                    image: document.getElementById('main-image').src,
+                    quantity: 1
+                };
+    
+                // Add selected options to product object
+                for (const [key, value] of Object.entries(productOptions)) {
+                    if (value !== null) {
+                        product[key] = value;
+                    }
+                }
+    
+                // Get existing cart items from localStorage or create empty array
+                let cartItems = JSON.parse(localStorage.getItem('cartItems')) || [];
+                
+                // Check if similar product already exists in cart (same ID + same options)
+                const existingItemIndex = cartItems.findIndex(item => {
+                    // Basic match on name
+                    if (item.name !== product.name) return false;
+                    
+                    // Check all options that exist for this product
+                    for (const [key, value] of Object.entries(productOptions)) {
+                        if (value !== null && item[key] !== product[key]) return false;
+                    }
+                    
+                    return true;
+                });
+                
+                if (existingItemIndex >= 0) {
+                    // If exists, increase quantity
+                    cartItems[existingItemIndex].quantity += 1;
+                } else {
+                    // If not exists, add new item
+                    cartItems.push(product);
+                }
+                
+                // Save back to localStorage
+                localStorage.setItem('cartItems', JSON.stringify(cartItems));
+                
+                // Show confirmation message
+                alert('Product added to cart!');
+                
+                // Update cart counter
+                updateCartCounter();
+            }
+            
+            function updateCartCounter() {
+                const cartItems = JSON.parse(localStorage.getItem('cartItems')) || [];
+                const totalItems = cartItems.reduce((total, item) => total + item.quantity, 0);
+                const counter = document.querySelector('.cart-counter');
+                if (counter) {
+                    counter.textContent = totalItems;
+                }
+            }
+    
+            // Image thumbnail click handler
+            function changeImage(element) {
+                document.querySelectorAll('.thumbnail-img').forEach(img => img.classList.remove('active'));
+                element.classList.add('active');
+                document.getElementById('main-image').src = element.src;
+            }
+    
+            // Make changeImage function available globally
+            window.changeImage = changeImage;
+        });
+
+        const toggle = document.getElementById('menu-toggle');
+    const navLinks = document.getElementById('nav-links');
+
+    toggle.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+    });
+
+    // Close menu on link click (mobile)
+    document.querySelectorAll('.nav-links a').forEach(link => {
+      link.addEventListener('click', () => {
+        navLinks.classList.remove('active');
+      });
+    });
+    </script>
+</body>
+
+</html>

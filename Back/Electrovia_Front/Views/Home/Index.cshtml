@@ -1,0 +1,322 @@
+﻿@{
+    ViewData["Title"] = "Home";
+    Layout = "_Layout";
+}
+
+<link rel="stylesheet" href="~/css/style.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+<link rel="stylesheet" href="~/css/navbar_style.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+<script defer src="~/js/script.js"></script>
+
+
+<style>
+    .navbar-brand span {
+        color: var(--bs-primary);
+    }
+
+    .cart-badge {
+        position: relative;
+    }
+
+    .cart-count {
+        position: absolute;
+        top: -5px;
+        right: -10px;
+        font-size: 0.75em;
+    }
+
+    .search-container {
+        max-width: 500px;
+        width: 100%;
+        margin: 0 1rem;
+    }
+</style>
+<script>
+    document.documentElement.setAttribute('data-bs-theme', 'light');
+</script>
+
+<section class="hero-section">
+    <div class="overlay"></div>
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <div class="hero-content">
+
+                    <h1>iPhone 16 <span>proMax</span></h1>
+                    <p>Created to change everything for the better. For everyone</p>
+                    <a asp-controller="Products" asp-action="Index" class="hero-btn">Shop Now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- section 2 -->
+
+
+<div class="container-fluid product-section">
+    <div class="row">
+        <!-- القسم الأول: Playstation -->
+        <div class="col-md-6">
+            <div class="row">
+                <!-- Playstation 5 -->
+                <div class="col-md-12 d-flex align-items-center bg-white">
+                    <div class="container d-flex">
+                        <div class="image-container">
+                            <img src="images/2.jpg" alt="Playstation 5">
+                        </div>
+                        <div class="text-content">
+                            <h2>Playstation 5</h2>
+                            <p>
+                                Incredibly powerful CPUs, GPUs, and an SSD with integrated I/O will redefine your
+                                PlayStation experience.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-12">
+                    <div class="row">
+                        <!-- Apple AirPods Max (الصورة على اليسار والنص على اليمين) -->
+                        <div class="col-md-6 d-flex align-items-center bg-white">
+                            <div class="container d-flex">
+                                <div class="image-container">
+                                    <img src="images/3.png" alt="AirPods Max">
+                                </div>
+                                <div class="text-content">
+                                    <h2>Apple AirPods <span>Max</span></h2>
+                                    <p>Computational audio. Listen, it's powerful.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Apple Vision Pro -->
+                        <div class="col-md-6 d-flex align-items-center bg-dark-gray">
+                            <div class="container d-flex">
+                                <div class="image-container">
+                                    <img src="images/vision.png" alt="Vision Pro">
+                                </div>
+                                <div class="text-content">
+                                    <h2>Apple Vision <span>Pro</span></h2>
+                                    <p>An immersive way to experience entertainment.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- القسم الثاني: MacBook Air (الصورة على اليمين والنص على اليسار) -->
+        <div class="col-md-6 d-flex align-items-center bg-light-gray">
+            <div class="container d-flex image-right">
+                <div class="text-content">
+                    <h2>Macbook <span>Air</span></h2>
+                    <p>
+                        The new 15-inch MacBook Air makes room for more of what you love with a spacious Liquid
+                        Retina display.
+                    </p>
+                    <a href="../final_products.html" class="shop-btn">Shop Now</a>
+                </div>
+                <div class="image-container">
+                    <img src="images/mac.png" alt="Macbook Air">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Brows by category -->
+<div class="container">
+    <div class="category-section" id="categorySection">
+        <h4 class="mb-4">Browse By Category</h4>
+        <div class="row row-cols-3 row-cols-md-6 g-3 justify-content-center">
+            <div class="col">
+                <a asp-controller="Products" asp-action="Index" asp-route-Category="phones" class="category-box" data-delay="0.1s">
+                    <i class="fas fa-mobile-alt"></i>
+                    <p>Phones</p>
+                </a>
+            </div>
+            <div class="col">
+                <a asp-controller="Products" asp-action="Index" asp-route-Category="smartwatches" class="category-box" data-delay="0.2s">
+                    <i class="fas fa-clock"></i>
+                    <p>Smart Watches</p>
+                </a>
+            </div>
+
+            <div class="col">
+                <a asp-controller="Products" asp-action="Index" asp-route-Category="headphones" class="category-box" data-delay="0.4s">
+                    <i class="fas fa-headphones-alt"></i>
+                    <p>Headphones</p>
+                </a>
+            </div>
+
+            <div class="col">
+                <a asp-controller="Products" asp-action="Index" asp-route-Category="Computer" class="category-box" data-delay="0.5s">
+                    <i class="fas fa-desktop"></i>
+                    <p>Computers</p>
+                </a>
+            </div>
+
+            <div class="col">
+                <a asp-controller="Products" asp-action="Index" asp-route-Category="Gaming" class="category-box" data-delay="0.6s">
+                    <i class="fas fa-gamepad"></i>
+                    <p>Gaming</p>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+@* section 3 *@
+
+<div class="container py-5">
+    <ul class="nav nav-tabs">
+        <li class="nav-item">
+            <a class="nav-link active" onclick="showSection('new-arrival', this)">New Arrival</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" onclick="showSection('bestseller', this)">Bestseller</a>
+        </li>
+
+    </ul>
+
+    <div id="new-arrival" class="products-section active">
+        <!-- منتجات New Arrival -->
+        <div class="product-card">
+            <img src="../images/iphone16promax-digitalmat-gallery-3-202409.jpeg" alt="iPhone 16 Promax">
+            <h6>IPhone 16 Promax </h6>
+            <div class="price">$1299</div>
+            <a asp-controller="Products" asp-action="ProductDetailsView" asp-route-product_id="18" class="btn-buy">Buy Now</a>
+        </div>
+        <div class="product-card">
+            <img src="../images/iphone16plus-digitalmat-gallery-3-202409.jpeg" alt="Iphone 16 Plus">
+            <h6>Iphone 16 Plus</h6>
+            <div class="price">$999</div>
+            <a asp-controller="Products" asp-action="ProductDetailsView" asp-route-product_id="19" class="btn-buy">Buy Now</a>
+        </div>
+        <div class="product-card">
+            <img src="../images/apple_watch-removebg-preview.png" alt="Apple Watch">
+            <h6>Apple Watch Ultra 2 49mm</h6>
+            <div class="price">$699</div>
+            <a asp-controller="Products" asp-action="ProductDetailsView" asp-route-product_id="26" class="btn-buy">Buy Now</a>
+        </div>
+        <div class="product-card">
+            <img src="../images/3.png" alt="AirPods Max">
+            <h6>AirPods Max Silver</h6>
+            <div class="price">$549</div>
+            <a asp-controller="Products" asp-action="ProductDetailsView" asp-route-product_id="15" class="btn-buy">Buy Now</a>
+        </div>
+        <div class="product-card">
+            <img src="../images/Samsung Galaxy Watch7 Classic Smartwatch.png" alt="Samsung Watch">
+            <h6>Samsung Galaxy Watch 7</h6>
+            <div class="price">$480</div>
+            <a asp-controller="Products" asp-action="ProductDetailsView" asp-route-product_id="25" class="btn-buy">Buy Now</a>
+        </div>
+        <div class="product-card">
+            <img src="../images/S25ultra1.png" alt="Samsung Galaxy A05s">
+            <h6>Samsung Galaxy S25 Ultra</h6>
+            <div class="price">$1300</div>
+            <a asp-controller="Products" asp-action="ProductDetailsView" asp-route-product_id="20" class="btn-buy">Buy Now</a>
+        </div>
+        <div class="product-card">
+            <img src="../images/SAMSUNG Galaxy Watch Ultra Smartwatch.png" alt="Galaxy Buds">
+            <h6>SAMSUNG Galaxy Watch Ultra</h6>
+            <div class="price">$300</div>
+            <a asp-controller="Products" asp-action="ProductDetailsView" asp-route-product_id="27" class="btn-buy">Buy Now</a>
+        </div>
+        <div class="product-card">
+            <img src="../images/HP Victus FA0033DX.png" alt="iPad Air">
+            <h6>HP Victus FA0033DX"</h6>
+            <div class="price">$600</div>
+            <a asp-controller="Products" asp-action="ProductDetailsView" asp-route-product_id="5" class="btn-buy">Buy Now</a>
+        </div>
+    </div>
+
+    <div id="bestseller" class="product-section">
+        <!-- منتجات Bestseller -->
+    </div>
+    <div id="featured" class="product-section">
+        <!-- منتجات Featured Products -->
+    </div>
+</div>
+
+
+
+<div class="container-fluid">
+    <div class="product-section-3">
+        <div class="product-card-3">
+            <img src="images/11-removebg-preview.png" alt="Popular Products">
+            <h6>Popular Products</h6>
+            <p>iPad combines a magnificent 10.2-inch Retina display, incredible performance, multitasking and ease of use.</p>
+            <a asp-controller="Products" asp-action="Index" class="shop-btn">Shop Now</a>
+        </div>
+        <div class="product-card-3">
+            <img src="images/apple-ipad-removebg-preview.png" alt="iPad Pro">
+            <h6>iPad Pro</h6>
+            <p>iPad combines a magnificent 10.2-inch Retina display, incredible performance, multitasking and ease of use.</p>
+            <a asp-controller="Products" asp-action="Index" class="shop-btn">Shop Now</a>
+        </div>
+        <div class="product-card-3">
+            <img src="images/samsung-galaxy-z--removebg-preview.png" alt="Samsung Galaxy">
+            <h6>Samsung Galaxy</h6>
+            <p>iPad combines a magnificent 10.2-inch Retina display, incredible performance, multitasking and ease of use.</p>
+            <a asp-controller="Products" asp-action="Index" class="shop-btn">Shop Now</a>
+        </div>
+        <div class="product-card-3">
+            <img src="images/mac.png" alt="MacBook Pro">
+            <h6>MacBook Pro</h6>
+            <p>iPad combines a magnificent 10.2-inch Retina display, incredible performance, multitasking and ease of use.</p>
+            <a asp-controller="Products" asp-action="Index" class="shop-btn">Shop Now</a>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="container-fluid">
+    <div class="discount-section">
+        <div class="discount-title">Discounts up to 50%</div>
+        <div class="discount-container">
+            <div class="discount-card">
+                <img src="images/S25ultra1.png" alt="Samsung Galaxy S25 Ultra">
+                <h6>Samsung Galaxy S25 Ultra (Black)</h6>
+                <p>$1200</p>
+                <a href="../product details/productsix.html" class="buy-btn">Buy Now</a>
+            </div>
+            <div class="discount-card">
+                <img src="images/3.png" alt="AirPods Max Silver">
+                <h6>AirPods Max Silver Starlight Aluminium</h6>
+                <p>$549</p>
+                <a href="../product details/headphone_h1.html" class="buy-btn">Buy Now</a>
+            </div>
+            <div class="discount-card">
+                <img src="images/apple_watch-removebg-preview.png" alt="Apple Watch Series 9">
+                <h6>Apple Watch Series 9 GPS 41mm Starlight Aluminium</h6>
+                <p>$399</p>
+                <a href="../product details/smartwatch_w3.html" class="buy-btn">Buy Now</a>
+            </div>
+            <div class="discount-card">
+                <img src="images/iphone 16 pro max.jpg" alt="iPhone 1 Pro Max 1TB Gold">
+                <h6>Apple iPhone 16 Pro Max 1TB Gold</h6>
+                <p>$1499</p>
+                <a href="../product details/productone.html" class="buy-btn">Buy Now</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="sale-section">
+    <img src="images/11-removebg-preview.png" alt="Left Image" class="sale-image left">
+    <div class="container">
+        <h1 class="sale-title">Big Summer <span style="color: yellow;">Sale</span></h1>
+        <p class="sale-text">Commodo fames vitae vitae leo mauris in. Eu consequat.</p>
+        <a asp-controller="Products" asp-action="Index" class="shop-btn">Shop Now</a>
+    </div>
+    <img src="images/3.png" alt="Right Image" class="sale-image right">
+</div>
+
+

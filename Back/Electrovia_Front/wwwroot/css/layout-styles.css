@@ -1,0 +1,21 @@
+﻿
+/* Reset styles for elements INSIDE child content */
+.child-content-container * {
+    all: initial; /* Resets all inherited styles */
+}
+
+/* Re-allow basic typography (optional) */
+.child-content-container p,
+.child-content-container h1,
+.child-content-container span {
+    all: revert; /* Lets child content use default browser styles */
+}
+
+/* Protect layout elements */
+.layout-header,
+.layout-footer {
+    /* Force your layout styles to dominate */
+    margin: 0 !important;
+    padding: 0 !important;
+    background: white !important;
+}
