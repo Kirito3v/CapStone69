@@ -5,7 +5,7 @@ namespace Electrovia_Core.interfaces
 {
     public interface IGenericRepository<T> where T : BaseEntity
     {
-        Task<List<T>> GetAllAsync();
+        Task<IReadOnlyList<T>> GetAllAsync();
         Task<T> GetbyIdAsync(int id);
 
 
@@ -13,7 +13,7 @@ namespace Electrovia_Core.interfaces
         void Update(T entity);
         void Delete(T entity);
 
-        Task<List<T>> GetAllAsync(ISpecification<T> spec);
+        Task<IReadOnlyList<T>> GetAllAsync(ISpecification<T> spec);
         Task<T> GetEntityAsync(ISpecification<T> spec);
         Task<int> GetCountAsync(ISpecification<T> spec);
     }

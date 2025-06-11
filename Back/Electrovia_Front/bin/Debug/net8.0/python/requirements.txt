@@ -1,6 +1,0 @@
-﻿numpy
-faiss-cpu
-Pillow
-tqdm
-torch
-torchvision

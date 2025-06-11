@@ -1,17 +1,19 @@
-﻿public class Pagination<T>
+﻿using Electrovia.DTOs;
+
+namespace Electrovia.Helpers
 {
-    public int Pageindex { get; set; }
-    public int Pagesize { get; set; }
-    public int Count { get; set; }
-    public List<T> Data { get; set; }
-
-    public Pagination() { } // Required for model binding
-
-    public Pagination(int pagesize, int pageindex, int count, List<T> data)
+    public class Pagination<T>
     {
-        Pagesize = pagesize;
-        Pageindex = pageindex;
-        Count = count;
-        Data = data;
+        public int Pageindex { get; set; }
+        public int Pagesize { get; set; }
+        public int Count { get; set; }
+        public IReadOnlyList<T> Data { get; set; }
+        public Pagination(int pagesize, int pageindex, int count, IReadOnlyList<T> data)
+        {
+            Pagesize = pagesize;
+            Pageindex = pageindex;
+            Count = count;
+            Data = data;
+        }
     }
 }

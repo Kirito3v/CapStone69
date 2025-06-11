@@ -1,22 +1,27 @@
 [
   {
-    "Name": "Phones"
+    "Name": "Phones",
+    "Icons": "fas fa-mobile-alt"
   },
 
   {
-    "Name": "Smart Watchs"
+    "Name": "Smart Watchs",
+    "Icons": "fas fa-clock"
   },
 
   {
-    "Name": "Laptops"
+    "Name": "Laptops",
+    "Icons": "fas fa-desktop"
   },
 
   {
-    "Name": "Head Phones"
+    "Name": "Head Phones",
+    "Icons": "fas fa-headphones-alt"
   },
 
   {
-    "Name": "Gaming"
+    "Name": "Gaming",
+    "Icons": "fas fa-gamepad"
   }
 
 ]

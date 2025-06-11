@@ -33,7 +33,7 @@ namespace Electrovia.Middlewars
 
                 var response = _environment.IsDevelopment() ?
                     new APi_Execption_Response((int)HttpStatusCode.InternalServerError, ex.Message, ex.StackTrace!.ToString())
-                  : new APi_Execption_Response((int)HttpStatusCode.InternalServerError);
+                  : new APi_Execption_Response((int)HttpStatusCode.InternalServerError, ex.Message, ex.StackTrace!.ToString());
 
                 var name = new JsonSerializerOptions() { PropertyNamingPolicy = JsonNamingPolicy.CamelCase };
                 var json = JsonSerializer.Serialize(response, name);

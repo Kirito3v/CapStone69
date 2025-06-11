@@ -23,7 +23,6 @@ namespace Electrovia_Repository
                 query = query.Skip(spec._skip).Take(spec._take);
 
             query = spec.include.Aggregate(query , (CurrentQuery, include_expression ) => CurrentQuery.Include(include_expression));
-
             return query;
         }
     }

@@ -49,6 +49,8 @@ namespace Electrovia.Controllers
         #region Register
 
         [HttpPost("register")]
+        [ProducesResponseType(typeof(RegisterDTO), StatusCodes.Status200OK)]
+        [ProducesResponseType(typeof(APIsResponse), StatusCodes.Status400BadRequest)]
         public async Task<ActionResult<UserDTO?>> Register(RegisterDTO registerDTO)
         {
             if(Validation_Dublication_Email(registerDTO.Email!).Result.Value)
@@ -59,7 +61,7 @@ namespace Electrovia.Controllers
                 DisplayName = registerDTO?.DisplayName,
                 Email = registerDTO?.Email,
                 PhoneNumber = registerDTO?.phone,
-                UserName = registerDTO?.Email?.Split("@")[0]
+                UserName = registerDTO?.Email?.Split("@")[0],
             };
             var result = await _userManager.CreateAsync(user, registerDTO!.Password!);
             if (!result.Succeeded) return BadRequest(new APIsResponse(400));
@@ -106,10 +108,10 @@ namespace Electrovia.Controllers
         [HttpPut("address")]
         public async Task<ActionResult<AddressDTO>> Update_Address(AddressDTO update_address)
         {
-            var user = await _userManager.Find_address_Async(User);
             var address = _mapper.Map<AddressDTO, Address>(update_address);
-
-            user!.Address!.FirstName = address.FirstName;
+            var user = await _userManager.Find_address_Async(User);
+            user!.Address = address;
+            user.Address.FirstName = address.FirstName;
             user.Address.LastName = address.LastName;
             user.Address.Street = address.Street;
             user.Address.City = address.City;

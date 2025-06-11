@@ -17,5 +17,8 @@ namespace Electrovia.DTOs
         [Required]
         [Phone]
         public string? phone { get; set; }
+        
+      
+
     }
 }

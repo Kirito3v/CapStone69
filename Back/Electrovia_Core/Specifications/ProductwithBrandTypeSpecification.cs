@@ -7,7 +7,7 @@ namespace Electrovia_Core.Specifications
     {
         // this Constructor get all products without where 
         public Product_with_Brand_Type_Specification(Product_Spec_Parameters product_params) :
-        base(P =>
+        base(P => 
             (string.IsNullOrEmpty(product_params.Search!) || P.Name!.ToLower()!.Contains(product_params.Search!)) &&
             (!product_params.brandid.HasValue            || P.ProductBrandId == product_params.brandid.Value) &&
             (!product_params.typeid.HasValue             || P.ProductTypeId == product_params.typeid.Value))
@@ -30,9 +30,7 @@ namespace Electrovia_Core.Specifications
                         Add_OrederBy(P => P.Name!);
                         break;
                 }
-
             }
-
             Applypagination(product_params.Pagesize * (product_params.Pageindex-1) , product_params.Pagesize );
         }
 

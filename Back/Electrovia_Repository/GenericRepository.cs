@@ -16,10 +16,10 @@ namespace Electrovia_Repository
 
         #endregion
 
-        public async Task<List<T>?> GetAllAsync()
+        public async Task<IReadOnlyList<T>> GetAllAsync()
         {
             if (typeof(T) == typeof(Products))
-                return (await _dbContext.Set<Products>().Include(P => P.ProductBrand).Include(T => T.ProductType).ToListAsync()) as List<T>;
+                return (IReadOnlyList<T>)await _dbContext.Set<Products>().Include(P => P.ProductBrand).Include(T => T.ProductType).ToListAsync();
             else
                 return await _dbContext.Set<T>().ToListAsync();
         }
@@ -30,7 +30,7 @@ namespace Electrovia_Repository
         
         private IQueryable<T> ApplySpec(ISpecification<T> spec) => SpecificationEvalutor<T>.Create_Query(_dbContext.Set<T>(), spec);
         
-        public async Task<List<T>> GetAllAsync(ISpecification<T> spec) => await ApplySpec(spec).ToListAsync();
+        public async Task<IReadOnlyList<T>> GetAllAsync(ISpecification<T> spec) => await ApplySpec(spec).ToListAsync();
         
         public async Task<T?> GetEntityAsync(ISpecification<T> spec) => await ApplySpec(spec).FirstOrDefaultAsync();
         
@@ -44,6 +44,5 @@ namespace Electrovia_Repository
         public void Update(T entity) => _dbContext.Set<T>().Update(entity);
         
         public void Delete(T entity) => _dbContext.Set<T>().Remove(entity);
-
     }
 }

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <link rel="stylesheet" href="../CSS/navbar_style.css">
+    <link rel="stylesheet" href="../CSS/final_products.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gabarito&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <script>
+        const apiBase = 'https://localhost:7228/api/products';
+        let currentPage = 1, pageSize = 18, lastFetched = [];
+
+        async function fetchProducts() {
+            const params = new URLSearchParams({
+                pageIndex: currentPage,
+                pageSize: pageSize,
+                search: document.getElementById('searchInput').value
+            });
+            document.querySelectorAll('.filter-options input:checked').forEach(cb => params.append(cb.name, cb.value));
+            const res = await fetch(`${apiBase}?${params}`);
+            const data = await res.json();
+            lastFetched = data.data;
+            renderProducts(data.data);
+            renderPagination(data.count);
+        }
+
+        function uploadFile() {
+            const input = document.createElement('input');
+            input.type = 'file'; input.accept = 'image/*';
+            input.onchange = async (e) => {
+                const file = e.target.files[0]; if (!file) return;
+                const fd = new FormData(); fd.append('imageFile', file);
+                const res = await fetch('https://localhost:7228/api/Products/SearchWithImage', { method: 'POST', body: fd });
+                const text = await res.text();
+                const names = text.split(',').map(n => n.trim()).filter(n => n);
+                // filter last fetched page
+                const ordered = names.map(name => lastFetched.find(p => p.name === name)).filter(p => p);
+                renderProducts(ordered);
+                document.getElementById('pagination').innerHTML = '';
+                
+            };
+            input.click();
+        }
+
+        function renderProducts(items) {
+            const container = document.getElementById('productList');
+            container.innerHTML = items.map(p => `
+                <div class="product-item">
+                    <div class="product-header">
+                        <img src="${p.pictureUrl}" alt="${p.name}">
+                        <div class="favorite-icon" data-product-id="${p.id}" aria-label="Toggle wishlist">
+                            <i class="far fa-heart"></i>
+                        </div>
+                    </div>
+                    <h2>${p.name}</h2>
+                    <p class="price">$${p.price}</p>
+                    <a href="product details/${p.name}.html">Buy Now</a>
+                </div>
+            `).join('');
+        }
+
+        function renderPagination(count) {
+            const total = Math.ceil(count / pageSize);
+            const container = document.getElementById('pagination'); container.innerHTML = '';
+            for (let i = 1; i <= total; i++) {
+                container.innerHTML += i === currentPage
+                    ? `<button class="page-btn active">${i}</button>`
+                    : `<button class="page-btn" onclick="gotoPage(${i})">${i}</button>`;
+            }
+        }
+
+        function gotoPage(i) { currentPage = i; fetchProducts(); }
+
+        document.addEventListener('DOMContentLoaded', () => {
+            document.getElementById('searchIcon').onclick = () => { currentPage = 1; fetchProducts(); };
+            document.getElementById('imageIcon').onclick = uploadFile;
+            fetchProducts();
+        });
+    </script>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo">ELECTRO<span>VIA</span></div>
+            <div class="search-box">
+                <input id="searchInput" type="text" placeholder="Search">
+                <i class="fas fa-search" id="searchIcon"></i>
+                <i class="fas fa-camera" id="imageIcon" title="Search by image" style="cursor:pointer; margin-left:8px;"></i>
+            </div>
+            <div class="menu-toggle" id="menu-toggle"><i class="fas fa-bars"></i></div>
+            <div class="nav-links" id="nav-links">
+                <a href="./Home Page/home.html">Home</a>
+                <a href="#about">About</a>
+                <a href="./about.html">Contact Us</a>
+                <div class="mobile-icons">
+                    <a href=""><i class="far fa-heart"></i></a>
+                    <a href="./final_cart.html"><div class="cart-icon"><i class="fas fa-shopping-cart"></i><span class="cart-count">0</span></div></a>
+                    <a href="./login page/login.html"><i class="fas fa-user"></i></a>
+                </div>
+            </div>
+            <div class="icons desktop-icons">
+                <a href=""><i class="far fa-heart"></i></a>
+                <div class="cart-icon"><a href="./final_cart.html"><i class="fas fa-shopping-cart"></i><span class="cart-count">0</span></a></div>
+                <a href="./login page/login.html"><i class="fas fa-user"></i></a>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <aside class="filter">
+            <h2>Filter By</h2>
+            <!-- filters here -->
+        </aside>
+        <main class="products">
+            <div class="product-list" id="productList"></div>
+            <div class="pagination" id="pagination"></div>
+        </main>
+    </div>
+</body>
+</html>

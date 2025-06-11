@@ -133,13 +133,22 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Electrovia.DTOs.UserDTO",
+        "Type": "Electrovia.DTOs.RegisterDTO",
         "MediaTypes": [
           "text/plain",
           "application/json",
           "text/json"
         ],
         "StatusCode": 200
+      },
+      {
+        "Type": "Electrovia.Errors.APIsResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
       }
     ]
   },
@@ -408,11 +417,6 @@
       {
         "Name": "Pagesize",
         "Type": "System.Int32",
-        "IsRequired": false
-      },
-      {
-        "Name": "ImageSearchResult",
-        "Type": "System.String",
         "IsRequired": false
       }
     ],

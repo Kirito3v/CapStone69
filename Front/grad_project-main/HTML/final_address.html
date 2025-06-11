@@ -1,0 +1,241 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+    <head> 
+        <link rel="icon" type="Image" href="LOGO.png"> 
+        <meta charset="UTF-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <title>Address</title> 
+        <link rel="stylesheet" href="../CSS/navbar_style.css"> 
+        <link rel="stylesheet" href="../CSS/final_address.css"> 
+        <link rel="preconnect" href="https://fonts.googleapis.com"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+        <link href="https://fonts.googleapis.com/css2?family=Gabarito&display=swap" rel="stylesheet"> 
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet"> 
+    </head> 
+    <body> 
+        <header> 
+            <div class="navbar"> 
+                <div class="logo">ELECTRO<span>VIA</span></div> 
+            
+                <div class="search-box"> 
+                <input type="text" placeholder="Search"> 
+                <i class="fas fa-search"></i> 
+                </div> 
+            
+                <div class="menu-toggle" id="menu-toggle"> 
+                <i class="fas fa-bars"></i> 
+                </div> 
+            
+                <div class="nav-links" id="nav-links"> 
+                <a href="./Home Page/home.html">Home</a> 
+                <a href="#about">About</a> 
+                <a href="./about.html">Contact Us</a> 
+                <div class="mobile-icons"> 
+                    <a href=""><i class="far fa-heart"></i></a> 
+                    <a href="./final_cart.html"><div class="cart-icon"> 
+                    <i class="fas fa-shopping-cart"></i> 
+                    <span class="cart-count">0</span> 
+                    </div></a> 
+                    <a href="./login page/login.html"><i class="fas fa-user"></i></a> 
+                </div> 
+                </div> 
+            
+                <div class="icons desktop-icons"> 
+                <a href=""><i class="far fa-heart"></i></a> 
+                <div class="cart-icon"> 
+                    <a href="./final_cart.html"><i class="fas fa-shopping-cart"></i> 
+                    <span class="cart-count">0</span></a> 
+                </div> 
+                <a href="./login page/login.html"><i class="fas fa-user"></i></a> 
+                </div> 
+            </div> 
+        </header> 
+        <div class="container"> 
+            <div class="step-indicator"> 
+                <div class="step active"> 
+                    <i class="fas fa-map-marker-alt"></i> Step 1<br>Address 
+                </div> 
+                <div class="step"> 
+                    <i class="fas fa-truck"></i> Step 2<br>Shipping 
+                </div> 
+                <div class="step"> 
+                    <i class="fas fa-credit-card"></i> Step 3<br>Payment 
+                </div> 
+            </div> 
+    
+            <div class="address-container"> 
+                <h2>Enter Shipping Address</h2> 
+                
+                <form id="addressForm"> 
+                    <div class="form-group"> 
+                        <label for="firstName">firstName</label> 
+                        <input type="text" id="firstName" placeholder="Your first name" required> 
+                    </div> 
+                    <div class="form-group"> 
+                        <label for="lastName">lastName</label> 
+                        <input type="text" id="lastName" placeholder="Your last name" required> 
+                    </div> 
+                    
+                    <div class="form-group"> 
+                        <label for="streetAddress">Street Address</label> 
+                        <input type="text" id="streetAddress" placeholder="Street and house number" required> 
+                    </div> 
+                    
+                    <div class="form-row"> 
+                        <div class="form-group"> 
+                            <label for="city">City</label> 
+                            <input type="text" id="city" placeholder="City" required> 
+                        </div> 
+                        <div class="form-group"> 
+                            <label for="zipCode">ZIP Code</label> 
+                            <input type="text" id="zipCode" placeholder="Postal code" required> 
+                        </div> 
+                    </div> 
+                    
+                    <div class="form-group"> 
+                        <label for="country">Country</label> 
+                        <input type="text" id="country" placeholder="Country" required> 
+                    </div> 
+                    
+                    <div class="form-group"> 
+                        <label for="phone">Phone Number</label> 
+                        <input type="tel" id="phone" placeholder="Phone number" required> 
+                    </div> 
+                    
+                    <div class="form-group"> 
+                        <label for="addressType">Address Type</label> 
+                        <select id="addressType"> 
+                            <option value="home">Home</option> 
+                            <option value="office">Office</option> 
+                            <option value="other">Other</option> 
+                        </select> 
+                    </div> 
+                    
+                    <div class="form-group checkbox-group"> 
+                        <input type="checkbox" id="saveAddress"> 
+                        <label for="saveAddress">Save this address for future use</label> 
+                    </div> 
+                </form> 
+            </div> 
+    
+            <div class="buttons"> 
+                <a href="final_cart.html" class="btn btn-back">Back</a> 
+                <a href="final_shipping.html" class="btn btn-next">Next</a> 
+            </div> 
+        </div> 
+    
+        <footer class="footer"> 
+            <div class="footer-container"> 
+                <div class="footer-brand"> 
+                    <h2>ELECTROVIA</h2> 
+                    <p>We are a residential interior design firm located in Portland.</p> 
+                    <div class="footer-social"> 
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a> 
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a> 
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a> 
+                        <a href="#" aria-label="TikTok"><i class="fab fa-tiktok"></i></a> 
+                    </div> 
+                </div> 
+                <div class="footer-links"> 
+                    <div class="footer-column"> 
+                        <h4>Services</h4> 
+                        <ul> 
+                            <li><a href="#">Bonus program</a></li> 
+                            <li><a href="#">Gift cards</a></li> 
+                            <li><a href="#">Credit and payment</a></li> 
+                        </ul> 
+                    </div> 
+                    <div class="footer-column"> 
+                        <h4>Assistance</h4> 
+                        <ul> 
+                            <li><a href="#">Find an order</a></li> 
+                            <li><a href="#">Terms of delivery</a></li> 
+                            <li><a href="#">Returns</a></li> 
+                        </ul> 
+                    </div> 
+                </div> 
+            </div> 
+        </footer> 
+    
+        <script> 
+            document.addEventListener('DOMContentLoaded', function () { 
+            const addressForm = document.getElementById('addressForm'); 
+            const nextButton = document.querySelector('.btn-next'); 
+    
+            nextButton.addEventListener('click', function (e) { 
+                e.preventDefault(); 
+        
+                if (!addressForm.checkValidity()) { 
+                    addressForm.reportValidity(); 
+                    return; 
+                } 
+        
+                const addressData = { 
+                    firstNAme: document.getElementById('firstName').value, 
+                    lastName: document.getElementById('lastName').value, 
+                    street: document.getElementById('streetAddress').value, 
+                    city: document.getElementById('city').value, 
+                    country: document.getElementById('country').value, 
+                }; 
+
+                const token = localStorage.getItem('authToken');
+
+                // Make sure token exists
+                if (!token) {
+                    alert('You need to log in first!');
+                    window.location.href = './login page/login.html';
+                    return;
+                }
+
+        
+                // Save to API (PUT) 
+                fetch('https://localhost:7228/api/Accounts/address', { 
+                    method: 'PUT', 
+                    headers: { 
+                        'Content-Type': 'application/json' ,
+                        'Authorization': `Bearer ${token}` 
+                    }, 
+                    body: JSON.stringify(addressData) 
+                }) 
+                    .then(response => { 
+                        if (!response.ok) { 
+                            throw new Error('Failed to update address'); 
+                        }
+        
+                        // Save to localStorage as well 
+                        const formattedAddress = `${addressData.street},${addressData.city}, ${addressData.country}`; 
+                        localStorage.setItem('shippingAddress', formattedAddress); 
+        
+                        if (document.getElementById('saveAddress').checked) { 
+                            let savedAddresses = JSON.parse(localStorage.getItem('savedAddresses')) || []; 
+                            savedAddresses.push(addressData); 
+                            localStorage.setItem('savedAddresses', JSON.stringify(savedAddresses)); 
+                        } 
+        
+                        // Redirect after saving 
+                        window.location.href = 'final_shipping.html'; 
+                    }) 
+                    .catch(error => { 
+                        console.error('Error:', error); 
+                        alert('There was a problem saving your address. Please try again.'); 
+                    }); 
+            }); 
+    
+                // Navigation menu toggler 
+                const toggle = document.getElementById('menu-toggle'); 
+                const navLinks = document.getElementById('nav-links'); 
+            
+                toggle.addEventListener('click', () => { 
+                    navLinks.classList.toggle('active'); 
+                }); 
+            
+                document.querySelectorAll('.nav-links a').forEach(link => { 
+                    link.addEventListener('click', () => { 
+                        navLinks.classList.remove('active'); 
+                    }); 
+                }); 
+            }); 
+        </script> 
+    
+    </body> 
+</html>

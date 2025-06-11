@@ -15,7 +15,6 @@ namespace ELECTROVIA_AI
         {
             string pythonPath = "";
 
-            // Check system PATH environment variable
             string? pathEnv = Environment.GetEnvironmentVariable("PATH");
             if (pathEnv != null)
             {
@@ -29,7 +28,6 @@ namespace ELECTROVIA_AI
                 }
             }
 
-            // Check Windows registry for Python installation (Windows only)
             if (pythonPath == null)
             {
                 try
@@ -67,8 +65,8 @@ namespace ELECTROVIA_AI
         {
             ProcessStartInfo psi = new ProcessStartInfo()
             {
-                FileName = FileName, 
-                Arguments = Path, 
+                FileName = $"\"{FileName}\"", 
+                Arguments = $"\"{Path}\"", 
                 RedirectStandardOutput = true,
                 UseShellExecute = false,
                 CreateNoWindow = true,

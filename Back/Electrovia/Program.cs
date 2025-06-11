@@ -17,11 +17,11 @@ namespace Electrovia
         {
             var builder = WebApplication.CreateBuilder(args);
 
-
             var PythonloggerFactory = LoggerFactory.Create(builder =>
             {
                 builder.AddConsole(); // Adds console logging
             });
+
 
             Logger<PyTimeService> Pythonlogger = new Logger<PyTimeService>(PythonloggerFactory);
 
@@ -33,27 +33,19 @@ namespace Electrovia
             builder.Services.Add_SwaggerServices();
             builder.Services.Add_Appliction_Services();
             builder.Services.Add_Identity_Services(builder.Configuration);
-
-
-
-
             builder.Services.AddDbContext<StoreDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
             builder.Services.AddDbContext<App_identity_DbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("Identity")));
             
-            
+            builder.Services.AddSingleton<IConnectionMultiplexer>(S =>
+            {
+                var con = ConfigurationOptions.Parse(builder.Configuration.GetConnectionString("RedisConnection")!);
+                return ConnectionMultiplexer.Connect(con);
+            });
+
             builder.Services.AddSingleton(pyTimeService);
 
             builder.Services.AddSingleton<SearchWithImageService>();
 
-            builder.Services.AddSingleton<IConnectionMultiplexer>(S =>
-            {
-                
-                var con = ConfigurationOptions.Parse(builder.Configuration.GetConnectionString("RedisConnection")!);
-                con.AbortOnConnectFail = false;
-                
-                return ConnectionMultiplexer.Connect(con);
-            });
-            
             builder.Services.AddCors(options =>
             {
                 options.AddPolicy("MyPolicy", options =>
@@ -92,7 +84,6 @@ namespace Electrovia
 
             #region Configure the HTTP request pipeline.  
 
-
             app.UseMiddleware<ExecptionMiddleWare>();
 
             if (app.Environment.IsDevelopment())
@@ -100,15 +91,11 @@ namespace Electrovia
             
             app.UseStatusCodePagesWithReExecute("/errors/{0}");
             app.UseStaticFiles();
-
-            app.UseCors("MyPolicy");
-
             app.UseHttpsRedirection();
-
-            
             app.UseAuthentication();
             app.UseAuthorization();
             app.MapControllers();
+            app.UseCors("MyPolicy");
             #endregion 
 
             app.Run();

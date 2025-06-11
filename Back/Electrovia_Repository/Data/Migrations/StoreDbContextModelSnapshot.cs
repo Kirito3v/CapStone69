@@ -129,6 +129,9 @@ namespace Electrovia_Repository.Data.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
+                    b.Property<string>("Icons")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("Name")
                         .HasColumnType("nvarchar(max)");
 
@@ -155,7 +158,7 @@ namespace Electrovia_Repository.Data.Migrations
                     b.Property<string>("PictureUrl")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<decimal?>("Price")
+                    b.Property<decimal>("Price")
                         .HasColumnType("decimal(18,2)");
 
                     b.Property<int>("ProductBrandId")
@@ -216,7 +219,8 @@ namespace Electrovia_Repository.Data.Migrations
                 {
                     b.HasOne("Electrovia_Core.Entities.Order_Aggregate.Order", null)
                         .WithMany("Order_Items")
-                        .HasForeignKey("OrderId");
+                        .HasForeignKey("OrderId")
+                        .OnDelete(DeleteBehavior.Cascade);
 
                     b.OwnsOne("Electrovia_Core.Entities.Order_Aggregate.Product_Order", "Product_Order", b1 =>
                         {

@@ -95,23 +95,6 @@
           }
         }
       },
-      "Microsoft.AspNetCore.Http.Features/5.0.17": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Extensions.Primitives": "5.0.1",
-          "System.IO.Pipelines": "5.0.2"
-        },
-        "compile": {
-          "lib/net5.0/Microsoft.AspNetCore.Http.Features.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net5.0/Microsoft.AspNetCore.Http.Features.dll": {
-            "related": ".xml"
-          }
-        }
-      },
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore/8.0.14": {
         "type": "package",
         "dependencies": {
@@ -806,7 +789,7 @@
           }
         }
       },
-      "System.IO.Pipelines/5.0.2": {
+      "System.IO.Pipelines/5.0.1": {
         "type": "package",
         "compile": {
           "ref/netcoreapp2.0/System.IO.Pipelines.dll": {
@@ -1032,7 +1015,6 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
-          "Microsoft.AspNetCore.Http.Features": "5.0.17",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "8.0.14",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.14",
           "StackExchange.Redis": "2.8.37",
@@ -1137,25 +1119,6 @@
         "lib/netstandard2.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.xml",
         "microsoft.aspnetcore.cryptography.keyderivation.8.0.14.nupkg.sha512",
         "microsoft.aspnetcore.cryptography.keyderivation.nuspec"
-      ]
-    },
-    "Microsoft.AspNetCore.Http.Features/5.0.17": {
-      "sha512": "3jG2xS+dx8DDCGV/F+STdPTg89lX3ao3dF/VEPvJaz3wzBIjuadipTtYNEXDIVuOPZwb6jdmhrX9jkzOIBm5cw==",
-      "type": "package",
-      "path": "microsoft.aspnetcore.http.features/5.0.17",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "THIRD-PARTY-NOTICES.TXT",
-        "lib/net461/Microsoft.AspNetCore.Http.Features.dll",
-        "lib/net461/Microsoft.AspNetCore.Http.Features.xml",
-        "lib/net5.0/Microsoft.AspNetCore.Http.Features.dll",
-        "lib/net5.0/Microsoft.AspNetCore.Http.Features.xml",
-        "lib/netstandard2.0/Microsoft.AspNetCore.Http.Features.dll",
-        "lib/netstandard2.0/Microsoft.AspNetCore.Http.Features.xml",
-        "microsoft.aspnetcore.http.features.5.0.17.nupkg.sha512",
-        "microsoft.aspnetcore.http.features.nuspec"
       ]
     },
     "Microsoft.AspNetCore.Identity.EntityFrameworkCore/8.0.14": {
@@ -2187,10 +2150,10 @@
         "system.identitymodel.tokens.jwt.nuspec"
       ]
     },
-    "System.IO.Pipelines/5.0.2": {
-      "sha512": "Iew+dfa6FFiyvWBdRmXApixRY1db+beyutpIck4SOSe0NLM8FD/7AD54MscqVLhvfSMLHO7KadjTRT7fqxOGTA==",
+    "System.IO.Pipelines/5.0.1": {
+      "sha512": "qEePWsaq9LoEEIqhbGe6D5J8c9IqQOUuTzzV6wn1POlfdLkJliZY3OlB0j0f17uMWlqZYjH7txj+2YbyrIA8Yg==",
       "type": "package",
-      "path": "system.io.pipelines/5.0.2",
+      "path": "system.io.pipelines/5.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2207,7 +2170,7 @@
         "lib/netstandard2.0/System.IO.Pipelines.xml",
         "ref/netcoreapp2.0/System.IO.Pipelines.dll",
         "ref/netcoreapp2.0/System.IO.Pipelines.xml",
-        "system.io.pipelines.5.0.2.nupkg.sha512",
+        "system.io.pipelines.5.0.1.nupkg.sha512",
         "system.io.pipelines.nuspec",
         "useSharedDesignerContext.txt",
         "version.txt"
@@ -2673,19 +2636,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\FreeComp\\.nuget\\packages\\": {}
+    "C:\\Users\\YossefMohamed\\.nuget\\packages\\": {},
+    "F:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\FreeComp\\Desktop\\Project\\Back\\Electrovia_Services\\Electrovia_Services.csproj",
+      "projectUniqueName": "F:\\Downloads\\Electrovia\\Electrovia\\Back\\Electrovia_Services\\Electrovia_Services.csproj",
       "projectName": "Electrovia_Services",
-      "projectPath": "C:\\Users\\FreeComp\\Desktop\\Project\\Back\\Electrovia_Services\\Electrovia_Services.csproj",
-      "packagesPath": "C:\\Users\\FreeComp\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\FreeComp\\Desktop\\Project\\Back\\Electrovia_Services\\obj\\",
+      "projectPath": "F:\\Downloads\\Electrovia\\Electrovia\\Back\\Electrovia_Services\\Electrovia_Services.csproj",
+      "packagesPath": "C:\\Users\\YossefMohamed\\.nuget\\packages\\",
+      "outputPath": "F:\\Downloads\\Electrovia\\Electrovia\\Back\\Electrovia_Services\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "F:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\FreeComp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\YossefMohamed\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2693,15 +2661,14 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\FreeComp\\Desktop\\Project\\Back\\Electrovia_Core\\Electrovia_Core.csproj": {
-              "projectPath": "C:\\Users\\FreeComp\\Desktop\\Project\\Back\\Electrovia_Core\\Electrovia_Core.csproj"
+            "F:\\Downloads\\Electrovia\\Electrovia\\Back\\Electrovia_Core\\Electrovia_Core.csproj": {
+              "projectPath": "F:\\Downloads\\Electrovia\\Electrovia\\Back\\Electrovia_Core\\Electrovia_Core.csproj"
             }
           }
         }
@@ -2715,7 +2682,8 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      }
+      },
+      "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
       "net8.0": {
@@ -2742,7 +2710,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
