@@ -914,7 +914,14 @@
         }
       },
       "System.Diagnostics.EventLog/8.0.0": {},
-      "System.Formats.Asn1/8.0.2": {},
+      "System.Formats.Asn1/8.0.2": {
+        "runtime": {
+          "lib/net8.0/System.Formats.Asn1.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.1325.6609"
+          }
+        }
+      },
       "System.IdentityModel.Tokens.Jwt/7.1.2": {
         "dependencies": {
           "Microsoft.IdentityModel.JsonWebTokens": "7.1.2",
@@ -1000,10 +1007,7 @@
           "Microsoft.Extensions.Logging.Abstractions": "9.0.5"
         },
         "runtime": {
-          "ELECTROVIA_AI.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "ELECTROVIA_AI.dll": {}
         }
       },
       "Electrovia_Core/1.0.0": {
@@ -1014,10 +1018,7 @@
           "Stripe.net": "48.1.0"
         },
         "runtime": {
-          "Electrovia_Core.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "Electrovia_Core.dll": {}
         }
       },
       "Electrovia_Repository/1.0.0": {
@@ -1027,10 +1028,7 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.14"
         },
         "runtime": {
-          "Electrovia_Repository.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "Electrovia_Repository.dll": {}
         }
       },
       "Electrovia_Services/1.0.0": {
@@ -1039,10 +1037,7 @@
           "Microsoft.AspNetCore.Authentication.JwtBearer": "8.0.14"
         },
         "runtime": {
-          "Electrovia_Services.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "Electrovia_Services.dll": {}
         }
       }
     }

@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Downloads\\Electrovia\\Electrovia\\Back\\Electrovia\\Electrovia.csproj": {}
+    "C:\\Users\\FreeComp\\Desktop\\Capstone\\Electrovia\\Back\\Electrovia\\Electrovia.csproj": {}
   },
   "projects": {
-    "F:\\Downloads\\Electrovia\\Electrovia\\Back\\Electrovia\\Electrovia.csproj": {
+    "C:\\Users\\FreeComp\\Desktop\\Capstone\\Electrovia\\Back\\Electrovia\\Electrovia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Downloads\\Electrovia\\Electrovia\\Back\\Electrovia\\Electrovia.csproj",
+        "projectUniqueName": "C:\\Users\\FreeComp\\Desktop\\Capstone\\Electrovia\\Back\\Electrovia\\Electrovia.csproj",
         "projectName": "Electrovia",
-        "projectPath": "F:\\Downloads\\Electrovia\\Electrovia\\Back\\Electrovia\\Electrovia.csproj",
-        "packagesPath": "C:\\Users\\YossefMohamed\\.nuget\\packages\\",
-        "outputPath": "F:\\Downloads\\Electrovia\\Electrovia\\Back\\Electrovia\\obj\\",
+        "projectPath": "C:\\Users\\FreeComp\\Desktop\\Capstone\\Electrovia\\Back\\Electrovia\\Electrovia.csproj",
+        "packagesPath": "C:\\Users\\FreeComp\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\FreeComp\\Desktop\\Capstone\\Electrovia\\Back\\Electrovia\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "F:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\YossefMohamed\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\FreeComp\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,20 +22,21 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "F:\\Downloads\\Electrovia\\Electrovia\\Back\\ELECTROVIA_AI\\ELECTROVIA_AI.csproj": {
-                "projectPath": "F:\\Downloads\\Electrovia\\Electrovia\\Back\\ELECTROVIA_AI\\ELECTROVIA_AI.csproj"
+              "C:\\Users\\FreeComp\\Desktop\\Capstone\\Electrovia\\Back\\ELECTROVIA_AI\\ELECTROVIA_AI.csproj": {
+                "projectPath": "C:\\Users\\FreeComp\\Desktop\\Capstone\\Electrovia\\Back\\ELECTROVIA_AI\\ELECTROVIA_AI.csproj"
               },
-              "F:\\Downloads\\Electrovia\\Electrovia\\Back\\Electrovia_Repository\\Electrovia_Repository.csproj": {
-                "projectPath": "F:\\Downloads\\Electrovia\\Electrovia\\Back\\Electrovia_Repository\\Electrovia_Repository.csproj"
+              "C:\\Users\\FreeComp\\Desktop\\Capstone\\Electrovia\\Back\\Electrovia_Repository\\Electrovia_Repository.csproj": {
+                "projectPath": "C:\\Users\\FreeComp\\Desktop\\Capstone\\Electrovia\\Back\\Electrovia_Repository\\Electrovia_Repository.csproj"
               },
-              "F:\\Downloads\\Electrovia\\Electrovia\\Back\\Electrovia_Services\\Electrovia_Services.csproj": {
-                "projectPath": "F:\\Downloads\\Electrovia\\Electrovia\\Back\\Electrovia_Services\\Electrovia_Services.csproj"
+              "C:\\Users\\FreeComp\\Desktop\\Capstone\\Electrovia\\Back\\Electrovia_Services\\Electrovia_Services.csproj": {
+                "projectPath": "C:\\Users\\FreeComp\\Desktop\\Capstone\\Electrovia\\Back\\Electrovia_Services\\Electrovia_Services.csproj"
               }
             }
           }
@@ -53,8 +50,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.300"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -102,25 +98,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "F:\\Downloads\\Electrovia\\Electrovia\\Back\\ELECTROVIA_AI\\ELECTROVIA_AI.csproj": {
+    "C:\\Users\\FreeComp\\Desktop\\Capstone\\Electrovia\\Back\\ELECTROVIA_AI\\ELECTROVIA_AI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Downloads\\Electrovia\\Electrovia\\Back\\ELECTROVIA_AI\\ELECTROVIA_AI.csproj",
+        "projectUniqueName": "C:\\Users\\FreeComp\\Desktop\\Capstone\\Electrovia\\Back\\ELECTROVIA_AI\\ELECTROVIA_AI.csproj",
         "projectName": "ELECTROVIA_AI",
-        "projectPath": "F:\\Downloads\\Electrovia\\Electrovia\\Back\\ELECTROVIA_AI\\ELECTROVIA_AI.csproj",
-        "packagesPath": "C:\\Users\\YossefMohamed\\.nuget\\packages\\",
-        "outputPath": "F:\\Downloads\\Electrovia\\Electrovia\\Back\\ELECTROVIA_AI\\obj\\",
+        "projectPath": "C:\\Users\\FreeComp\\Desktop\\Capstone\\Electrovia\\Back\\ELECTROVIA_AI\\ELECTROVIA_AI.csproj",
+        "packagesPath": "C:\\Users\\FreeComp\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\FreeComp\\Desktop\\Capstone\\Electrovia\\Back\\ELECTROVIA_AI\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "F:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\YossefMohamed\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\FreeComp\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -128,6 +120,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -145,8 +138,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.300"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -177,25 +169,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "F:\\Downloads\\Electrovia\\Electrovia\\Back\\Electrovia_Core\\Electrovia_Core.csproj": {
+    "C:\\Users\\FreeComp\\Desktop\\Capstone\\Electrovia\\Back\\Electrovia_Core\\Electrovia_Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Downloads\\Electrovia\\Electrovia\\Back\\Electrovia_Core\\Electrovia_Core.csproj",
+        "projectUniqueName": "C:\\Users\\FreeComp\\Desktop\\Capstone\\Electrovia\\Back\\Electrovia_Core\\Electrovia_Core.csproj",
         "projectName": "Electrovia_Core",
-        "projectPath": "F:\\Downloads\\Electrovia\\Electrovia\\Back\\Electrovia_Core\\Electrovia_Core.csproj",
-        "packagesPath": "C:\\Users\\YossefMohamed\\.nuget\\packages\\",
-        "outputPath": "F:\\Downloads\\Electrovia\\Electrovia\\Back\\Electrovia_Core\\obj\\",
+        "projectPath": "C:\\Users\\FreeComp\\Desktop\\Capstone\\Electrovia\\Back\\Electrovia_Core\\Electrovia_Core.csproj",
+        "packagesPath": "C:\\Users\\FreeComp\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\FreeComp\\Desktop\\Capstone\\Electrovia\\Back\\Electrovia_Core\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "F:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\YossefMohamed\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\FreeComp\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -203,6 +191,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -220,8 +209,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.300"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -266,25 +254,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "F:\\Downloads\\Electrovia\\Electrovia\\Back\\Electrovia_Repository\\Electrovia_Repository.csproj": {
+    "C:\\Users\\FreeComp\\Desktop\\Capstone\\Electrovia\\Back\\Electrovia_Repository\\Electrovia_Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Downloads\\Electrovia\\Electrovia\\Back\\Electrovia_Repository\\Electrovia_Repository.csproj",
+        "projectUniqueName": "C:\\Users\\FreeComp\\Desktop\\Capstone\\Electrovia\\Back\\Electrovia_Repository\\Electrovia_Repository.csproj",
         "projectName": "Electrovia_Repository",
-        "projectPath": "F:\\Downloads\\Electrovia\\Electrovia\\Back\\Electrovia_Repository\\Electrovia_Repository.csproj",
-        "packagesPath": "C:\\Users\\YossefMohamed\\.nuget\\packages\\",
-        "outputPath": "F:\\Downloads\\Electrovia\\Electrovia\\Back\\Electrovia_Repository\\obj\\",
+        "projectPath": "C:\\Users\\FreeComp\\Desktop\\Capstone\\Electrovia\\Back\\Electrovia_Repository\\Electrovia_Repository.csproj",
+        "packagesPath": "C:\\Users\\FreeComp\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\FreeComp\\Desktop\\Capstone\\Electrovia\\Back\\Electrovia_Repository\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "F:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\YossefMohamed\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\FreeComp\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -292,14 +276,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "F:\\Downloads\\Electrovia\\Electrovia\\Back\\Electrovia_Core\\Electrovia_Core.csproj": {
-                "projectPath": "F:\\Downloads\\Electrovia\\Electrovia\\Back\\Electrovia_Core\\Electrovia_Core.csproj"
+              "C:\\Users\\FreeComp\\Desktop\\Capstone\\Electrovia\\Back\\Electrovia_Core\\Electrovia_Core.csproj": {
+                "projectPath": "C:\\Users\\FreeComp\\Desktop\\Capstone\\Electrovia\\Back\\Electrovia_Core\\Electrovia_Core.csproj"
               }
             }
           }
@@ -313,8 +298,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.300"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -351,25 +335,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "F:\\Downloads\\Electrovia\\Electrovia\\Back\\Electrovia_Services\\Electrovia_Services.csproj": {
+    "C:\\Users\\FreeComp\\Desktop\\Capstone\\Electrovia\\Back\\Electrovia_Services\\Electrovia_Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Downloads\\Electrovia\\Electrovia\\Back\\Electrovia_Services\\Electrovia_Services.csproj",
+        "projectUniqueName": "C:\\Users\\FreeComp\\Desktop\\Capstone\\Electrovia\\Back\\Electrovia_Services\\Electrovia_Services.csproj",
         "projectName": "Electrovia_Services",
-        "projectPath": "F:\\Downloads\\Electrovia\\Electrovia\\Back\\Electrovia_Services\\Electrovia_Services.csproj",
-        "packagesPath": "C:\\Users\\YossefMohamed\\.nuget\\packages\\",
-        "outputPath": "F:\\Downloads\\Electrovia\\Electrovia\\Back\\Electrovia_Services\\obj\\",
+        "projectPath": "C:\\Users\\FreeComp\\Desktop\\Capstone\\Electrovia\\Back\\Electrovia_Services\\Electrovia_Services.csproj",
+        "packagesPath": "C:\\Users\\FreeComp\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\FreeComp\\Desktop\\Capstone\\Electrovia\\Back\\Electrovia_Services\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "F:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\YossefMohamed\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\FreeComp\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -377,14 +357,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "F:\\Downloads\\Electrovia\\Electrovia\\Back\\Electrovia_Core\\Electrovia_Core.csproj": {
-                "projectPath": "F:\\Downloads\\Electrovia\\Electrovia\\Back\\Electrovia_Core\\Electrovia_Core.csproj"
+              "C:\\Users\\FreeComp\\Desktop\\Capstone\\Electrovia\\Back\\Electrovia_Core\\Electrovia_Core.csproj": {
+                "projectPath": "C:\\Users\\FreeComp\\Desktop\\Capstone\\Electrovia\\Back\\Electrovia_Core\\Electrovia_Core.csproj"
               }
             }
           }
@@ -398,8 +379,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.300"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -426,7 +406,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

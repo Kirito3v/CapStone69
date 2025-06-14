@@ -1,64 +1,160 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\am250\\OneDrive\\Desktop\\Final\\Electrovia\\Back\\Electrovia\\wwwroot\\images\\products\\Hp_victus_Fa0033Dx_laptop.png",
+      "Id": "C:\\Users\\FreeComp\\Desktop\\Capstone\\Electrovia\\Back\\Electrovia\\wwwroot\\images\\products\\Hp_victus_Fa0033Dx_laptop.png",
       "PackagePath": "staticwebassets\\images\\products\\Hp_victus_Fa0033Dx_laptop.png"
     },
     {
-      "Id": "C:\\Users\\am250\\OneDrive\\Desktop\\Final\\Electrovia\\Back\\Electrovia\\wwwroot\\images\\products\\Samsung_Galaxy_Watch_4_Classic.jpg",
+      "Id": "C:\\Users\\FreeComp\\Desktop\\Capstone\\Electrovia\\Back\\Electrovia\\wwwroot\\images\\products\\Samsung_Galaxy_Watch_4_Classic.jpg",
       "PackagePath": "staticwebassets\\images\\products\\Samsung_Galaxy_Watch_4_Classic.jpg"
     },
     {
-      "Id": "C:\\Users\\am250\\OneDrive\\Desktop\\Final\\Electrovia\\Back\\Electrovia\\wwwroot\\images\\products\\Samsung_Galaxy_Watch_ultra_smart_watch.png",
+      "Id": "C:\\Users\\FreeComp\\Desktop\\Capstone\\Electrovia\\Back\\Electrovia\\wwwroot\\images\\products\\Samsung_Galaxy_Watch_ultra_smart_watch.png",
       "PackagePath": "staticwebassets\\images\\products\\Samsung_Galaxy_Watch_ultra_smart_watch.png"
     },
     {
-      "Id": "C:\\Users\\am250\\OneDrive\\Desktop\\Final\\Electrovia\\Back\\Electrovia\\wwwroot\\images\\products\\apple_airpods_pro.png",
+      "Id": "C:\\Users\\FreeComp\\Desktop\\Capstone\\Electrovia\\Back\\Electrovia\\wwwroot\\images\\products\\apple_airpods_pro.png",
       "PackagePath": "staticwebassets\\images\\products\\apple_airpods_pro.png"
     },
     {
-      "Id": "C:\\Users\\am250\\OneDrive\\Desktop\\Final\\Electrovia\\Back\\Electrovia\\wwwroot\\images\\products\\apple_ipad_air11.png",
+      "Id": "C:\\Users\\FreeComp\\Desktop\\Capstone\\Electrovia\\Back\\Electrovia\\wwwroot\\images\\products\\apple_ipad_air11.png",
       "PackagePath": "staticwebassets\\images\\products\\apple_ipad_air11.png"
     },
     {
-      "Id": "C:\\Users\\am250\\OneDrive\\Desktop\\Final\\Electrovia\\Back\\Electrovia\\wwwroot\\images\\products\\apple_macbook_air2020_model.png",
+      "Id": "C:\\Users\\FreeComp\\Desktop\\Capstone\\Electrovia\\Back\\Electrovia\\wwwroot\\images\\products\\apple_macbook_air2020_model.png",
       "PackagePath": "staticwebassets\\images\\products\\apple_macbook_air2020_model.png"
     },
     {
-      "Id": "C:\\Users\\am250\\OneDrive\\Desktop\\Final\\Electrovia\\Back\\Electrovia\\wwwroot\\images\\products\\apple_watch_ultra_3_49mm.png",
+      "Id": "C:\\Users\\FreeComp\\Desktop\\Capstone\\Electrovia\\Back\\Electrovia\\wwwroot\\images\\products\\apple_watch_ultra_3_49mm.png",
       "PackagePath": "staticwebassets\\images\\products\\apple_watch_ultra_3_49mm.png"
     },
     {
-      "Id": "C:\\Users\\am250\\OneDrive\\Desktop\\Final\\Electrovia\\Back\\Electrovia\\wwwroot\\images\\products\\dualsense_edge_ps5_controller.png",
+      "Id": "C:\\Users\\FreeComp\\Desktop\\Capstone\\Electrovia\\Back\\Electrovia\\wwwroot\\images\\products\\dualsense_edge_ps5_controller.png",
       "PackagePath": "staticwebassets\\images\\products\\dualsense_edge_ps5_controller.png"
     },
     {
-      "Id": "C:\\Users\\am250\\OneDrive\\Desktop\\Final\\Electrovia\\Back\\Electrovia\\wwwroot\\images\\products\\iphone_16_plus.png",
+      "Id": "C:\\Users\\FreeComp\\Desktop\\Capstone\\Electrovia\\Back\\Electrovia\\wwwroot\\images\\products\\iphone_16_plus.png",
       "PackagePath": "staticwebassets\\images\\products\\iphone_16_plus.png"
     },
     {
-      "Id": "C:\\Users\\am250\\OneDrive\\Desktop\\Final\\Electrovia\\Back\\Electrovia\\wwwroot\\images\\products\\iphone_16_promax.png",
+      "Id": "C:\\Users\\FreeComp\\Desktop\\Capstone\\Electrovia\\Back\\Electrovia\\wwwroot\\images\\products\\iphone_16_promax.png",
       "PackagePath": "staticwebassets\\images\\products\\iphone_16_promax.png"
     },
     {
-      "Id": "C:\\Users\\am250\\OneDrive\\Desktop\\Final\\Electrovia\\Back\\Electrovia\\wwwroot\\images\\products\\lenovo_legion_5_laptop.png",
+      "Id": "C:\\Users\\FreeComp\\Desktop\\Capstone\\Electrovia\\Back\\Electrovia\\wwwroot\\images\\products\\lenovo_legion_5_laptop.png",
       "PackagePath": "staticwebassets\\images\\products\\lenovo_legion_5_laptop.png"
     },
     {
-      "Id": "C:\\Users\\am250\\OneDrive\\Desktop\\Final\\Electrovia\\Back\\Electrovia\\wwwroot\\images\\products\\samsung_galaxy_buds_2.png",
+      "Id": "C:\\Users\\FreeComp\\Desktop\\Capstone\\Electrovia\\Back\\Electrovia\\wwwroot\\images\\products\\samsung_galaxy_buds_2.png",
       "PackagePath": "staticwebassets\\images\\products\\samsung_galaxy_buds_2.png"
     },
     {
-      "Id": "C:\\Users\\am250\\OneDrive\\Desktop\\Final\\Electrovia\\Back\\Electrovia\\wwwroot\\images\\products\\sony_ps5_pro.png",
+      "Id": "C:\\Users\\FreeComp\\Desktop\\Capstone\\Electrovia\\Back\\Electrovia\\wwwroot\\images\\products\\sony_ps5_pro.png",
       "PackagePath": "staticwebassets\\images\\products\\sony_ps5_pro.png"
     },
     {
-      "Id": "C:\\Users\\am250\\OneDrive\\Desktop\\Final\\Electrovia\\Back\\Electrovia\\wwwroot\\images\\products\\sony_watch_gt5_pro_46mm_smart_watch.png",
+      "Id": "C:\\Users\\FreeComp\\Desktop\\Capstone\\Electrovia\\Back\\Electrovia\\wwwroot\\images\\products\\sony_watch_gt5_pro_46mm_smart_watch.png",
       "PackagePath": "staticwebassets\\images\\products\\sony_watch_gt5_pro_46mm_smart_watch.png"
     },
     {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Electrovia.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
-      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+      "Id": "C:\\Users\\FreeComp\\Desktop\\Capstone\\Electrovia\\Back\\Electrovia\\wwwroot\\uploads\\00a0bf47-0501-497e-bb6e-a0b135278a9a.jpg",
+      "PackagePath": "staticwebassets\\uploads\\00a0bf47-0501-497e-bb6e-a0b135278a9a.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FreeComp\\Desktop\\Capstone\\Electrovia\\Back\\Electrovia\\wwwroot\\uploads\\00cc3a2e-cfad-45e4-a8f0-87c044881990.jpg",
+      "PackagePath": "staticwebassets\\uploads\\00cc3a2e-cfad-45e4-a8f0-87c044881990.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FreeComp\\Desktop\\Capstone\\Electrovia\\Back\\Electrovia\\wwwroot\\uploads\\00e3b971-f8b1-4f35-a7cf-94487b17f714.jpg",
+      "PackagePath": "staticwebassets\\uploads\\00e3b971-f8b1-4f35-a7cf-94487b17f714.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FreeComp\\Desktop\\Capstone\\Electrovia\\Back\\Electrovia\\wwwroot\\uploads\\0a21b52e-229d-49c0-b78c-5fde49de8011.jpg",
+      "PackagePath": "staticwebassets\\uploads\\0a21b52e-229d-49c0-b78c-5fde49de8011.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FreeComp\\Desktop\\Capstone\\Electrovia\\Back\\Electrovia\\wwwroot\\uploads\\0a2e0b7a-eb40-47b7-8873-9379de3f9e66.jpg",
+      "PackagePath": "staticwebassets\\uploads\\0a2e0b7a-eb40-47b7-8873-9379de3f9e66.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FreeComp\\Desktop\\Capstone\\Electrovia\\Back\\Electrovia\\wwwroot\\uploads\\0b6c8bbd-8b38-408c-99ec-fc066e9c0da7.jpg",
+      "PackagePath": "staticwebassets\\uploads\\0b6c8bbd-8b38-408c-99ec-fc066e9c0da7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FreeComp\\Desktop\\Capstone\\Electrovia\\Back\\Electrovia\\wwwroot\\uploads\\0bcf8f2d-a14f-4986-b436-f41c01d352a8.jpg",
+      "PackagePath": "staticwebassets\\uploads\\0bcf8f2d-a14f-4986-b436-f41c01d352a8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FreeComp\\Desktop\\Capstone\\Electrovia\\Back\\Electrovia\\wwwroot\\uploads\\0c0b2207-d52e-4aed-95a9-3ac00afaddd5.jpg",
+      "PackagePath": "staticwebassets\\uploads\\0c0b2207-d52e-4aed-95a9-3ac00afaddd5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FreeComp\\Desktop\\Capstone\\Electrovia\\Back\\Electrovia\\wwwroot\\uploads\\0c54df2e-5982-4f8f-9b0a-197c38e8be0e.jpg",
+      "PackagePath": "staticwebassets\\uploads\\0c54df2e-5982-4f8f-9b0a-197c38e8be0e.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FreeComp\\Desktop\\Capstone\\Electrovia\\Back\\Electrovia\\wwwroot\\uploads\\0dcb8289-04fe-4909-9496-fe4021a5cb84.jpg",
+      "PackagePath": "staticwebassets\\uploads\\0dcb8289-04fe-4909-9496-fe4021a5cb84.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FreeComp\\Desktop\\Capstone\\Electrovia\\Back\\Electrovia\\wwwroot\\uploads\\0e45d6ee-8e9c-4d27-b7c4-56dff36d6f05.jpg",
+      "PackagePath": "staticwebassets\\uploads\\0e45d6ee-8e9c-4d27-b7c4-56dff36d6f05.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FreeComp\\Desktop\\Capstone\\Electrovia\\Back\\Electrovia\\wwwroot\\uploads\\0f58096d-7e40-4bb6-a899-28b310c32011.jpg",
+      "PackagePath": "staticwebassets\\uploads\\0f58096d-7e40-4bb6-a899-28b310c32011.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FreeComp\\Desktop\\Capstone\\Electrovia\\Back\\Electrovia\\wwwroot\\uploads\\0fdf1cec-22e6-4f23-adfd-c4408e186df7.jpg",
+      "PackagePath": "staticwebassets\\uploads\\0fdf1cec-22e6-4f23-adfd-c4408e186df7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FreeComp\\Desktop\\Capstone\\Electrovia\\Back\\Electrovia\\wwwroot\\uploads\\1a263b1f-4000-40d1-909d-16f1ada0aa5a.jpg",
+      "PackagePath": "staticwebassets\\uploads\\1a263b1f-4000-40d1-909d-16f1ada0aa5a.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FreeComp\\Desktop\\Capstone\\Electrovia\\Back\\Electrovia\\wwwroot\\uploads\\1a38084a-4b00-419c-bfe9-252dff1fe9da.jpg",
+      "PackagePath": "staticwebassets\\uploads\\1a38084a-4b00-419c-bfe9-252dff1fe9da.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FreeComp\\Desktop\\Capstone\\Electrovia\\Back\\Electrovia\\wwwroot\\uploads\\1a9e8f35-7889-4f39-a36d-7cb302dd30f5.jpg",
+      "PackagePath": "staticwebassets\\uploads\\1a9e8f35-7889-4f39-a36d-7cb302dd30f5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FreeComp\\Desktop\\Capstone\\Electrovia\\Back\\Electrovia\\wwwroot\\uploads\\1b83d9e6-8524-436c-b47d-8161801d1f34.jpg",
+      "PackagePath": "staticwebassets\\uploads\\1b83d9e6-8524-436c-b47d-8161801d1f34.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FreeComp\\Desktop\\Capstone\\Electrovia\\Back\\Electrovia\\wwwroot\\uploads\\1c1acf4f-a7dc-436c-93c2-d80c0f430514.jpg",
+      "PackagePath": "staticwebassets\\uploads\\1c1acf4f-a7dc-436c-93c2-d80c0f430514.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FreeComp\\Desktop\\Capstone\\Electrovia\\Back\\Electrovia\\wwwroot\\uploads\\2b45bef5-a1f8-4e58-bdad-da376992e9f4.jpg",
+      "PackagePath": "staticwebassets\\uploads\\2b45bef5-a1f8-4e58-bdad-da376992e9f4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FreeComp\\Desktop\\Capstone\\Electrovia\\Back\\Electrovia\\wwwroot\\uploads\\2bc95295-b5f6-4f83-89c5-42f4d05a5259.jpg",
+      "PackagePath": "staticwebassets\\uploads\\2bc95295-b5f6-4f83-89c5-42f4d05a5259.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FreeComp\\Desktop\\Capstone\\Electrovia\\Back\\Electrovia\\wwwroot\\uploads\\2d8431a4-9873-49b8-a239-f183a6d6098b.jpg",
+      "PackagePath": "staticwebassets\\uploads\\2d8431a4-9873-49b8-a239-f183a6d6098b.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FreeComp\\Desktop\\Capstone\\Electrovia\\Back\\Electrovia\\wwwroot\\uploads\\3d04313f-e0dd-4ff1-b8db-655526784da0.jpg",
+      "PackagePath": "staticwebassets\\uploads\\3d04313f-e0dd-4ff1-b8db-655526784da0.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FreeComp\\Desktop\\Capstone\\Electrovia\\Back\\Electrovia\\wwwroot\\uploads\\5e6a2249-08f2-4eed-8297-d2e8e31e0a23.jpg",
+      "PackagePath": "staticwebassets\\uploads\\5e6a2249-08f2-4eed-8297-d2e8e31e0a23.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FreeComp\\Desktop\\Capstone\\Electrovia\\Back\\Electrovia\\wwwroot\\uploads\\6ffb4a66-c07e-4440-9877-110e38c42f0e.jpg",
+      "PackagePath": "staticwebassets\\uploads\\6ffb4a66-c07e-4440-9877-110e38c42f0e.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FreeComp\\Desktop\\Capstone\\Electrovia\\Back\\Electrovia\\wwwroot\\uploads\\9d8959a4-5e2a-45de-a1f9-8d631b85a6c7.jpg",
+      "PackagePath": "staticwebassets\\uploads\\9d8959a4-5e2a-45de-a1f9-8d631b85a6c7.jpg"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Electrovia.Microsoft.AspNetCore.StaticWebAssets.props",

@@ -1,12 +1,54 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "F:\\Downloads\\Electrovia\\Electrovia\\Back\\Electrovia\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\FreeComp\\Desktop\\Capstone\\Electrovia\\Back\\Electrovia\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F3517683-8FFE-485D-A36A-542019D0A18D}|Electrovia.csproj|c:\\users\\freecomp\\desktop\\capstone\\electrovia\\back\\electrovia\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3517683-8FFE-485D-A36A-542019D0A18D}|Electrovia.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3517683-8FFE-485D-A36A-542019D0A18D}|Electrovia.csproj|c:\\users\\freecomp\\desktop\\capstone\\electrovia\\back\\electrovia\\middlewars\\execption_middleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3517683-8FFE-485D-A36A-542019D0A18D}|Electrovia.csproj|solutionrelative:middlewars\\execption_middleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Execption_MiddleWare.cs",
+              "DocumentMoniker": "C:\\Users\\FreeComp\\Desktop\\Capstone\\Electrovia\\Back\\Electrovia\\Middlewars\\Execption_MiddleWare.cs",
+              "RelativeDocumentMoniker": "Middlewars\\Execption_MiddleWare.cs",
+              "ToolTip": "C:\\Users\\FreeComp\\Desktop\\Capstone\\Electrovia\\Back\\Electrovia\\Middlewars\\Execption_MiddleWare.cs",
+              "RelativeToolTip": "Middlewars\\Execption_MiddleWare.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T21:12:57.2Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\FreeComp\\Desktop\\Capstone\\Electrovia\\Back\\Electrovia\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\FreeComp\\Desktop\\Capstone\\Electrovia\\Back\\Electrovia\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T10:39:14.209Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
